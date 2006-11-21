@@ -1,0 +1,82 @@
+------------------------------------------------------------
+User: jrb  Mon Nov 20 17:18:05 PST 2006
+mootCore
+
+Log Message:
+portion of MOOT needed offline as well as online
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	v1r0
+		
+N mootCore/.cvsignore
+I mootCore/rh9_gcc32
+N mootCore/mootCore/DbUtil.h
+N mootCore/mootCore/DbUtilException.h
+N mootCore/mootCore/FileDescrip.h
+N mootCore/mootCore/MoodConnection.h
+N mootCore/mootCore/MootSys.h
+I mootCore/mootCore/MootQuery.h~
+N mootCore/mootCore/MootQuery.h
+N mootCore/cmt/.cvsignore
+I mootCore/cmt/requirements~
+I mootCore/cmt/Makefile
+I mootCore/cmt/setup.csh
+I mootCore/cmt/setup.sh
+I mootCore/cmt/cleanup.csh
+I mootCore/cmt/cleanup.sh
+N mootCore/cmt/requirements
+I mootCore/doc/release.notes~
+N mootCore/doc/release.notes
+N mootCore/maint/.cvsignore
+N mootCore/maint/createAncillary.sql
+N mootCore/maint/createAncillary_class.sql
+N mootCore/maint/createConditions.sql
+N mootCore/maint/createConfigs.sql
+N mootCore/maint/createConfigs_to_FSW.sql
+N mootCore/maint/createDelegates.sql
+N mootCore/maint/createFClass_to_PClass.sql
+N mootCore/maint/createFSW_class.sql
+N mootCore/maint/createFSW_inputs.sql
+N mootCore/maint/createFSW_to_Parameters.sql
+N mootCore/maint/createHistory.sql
+N mootCore/maint/createInstrument.sql
+N mootCore/maint/createMOOD.sql
+N mootCore/maint/createOClass_to_AClass.sql
+N mootCore/maint/createOfflineCalib.sql
+N mootCore/maint/createOffline_class.sql
+N mootCore/maint/createOffline_to_Ancillary.sql
+N mootCore/maint/createPClass_to_AClass.sql
+N mootCore/maint/createParameter_class.sql
+N mootCore/maint/createParameters.sql
+N mootCore/maint/createParameters_to_Ancillary.sql
+N mootCore/maint/createSubdetector.sql
+N mootCore/maint/dropAllButClass.sql
+N mootCore/maint/dropMOOD.sql
+N mootCore/maint/staticDump.sh
+N mootCore/python/__init__.py
+N mootCore/src/py_mootCore.in
+N mootCore/src/MoodConnection.cxx
+N mootCore/src/DbUtil.cxx
+N mootCore/src/MootSys.cxx
+N mootCore/src/mainpage.h
+N mootCore/src/MootQuery.cxx
+N mootCore/src/test/test_connect.cxx
+N mootCore/src/test/testdiffer.cxx
+N mootCore/src/test/testpopen.cxx
+N mootCore/src/test/test_mootSys.cxx
+N mootCore/src/test/test_queries.cxx
+N mootCore/xml/connection.xsd
+N mootCore/xml/init-mood.xml
+N mootCore/xml/init-mood_test.xml
+N mootCore/xml/init-mood_user.xml
+N mootCore/xml/mood.xml
+N mootCore/xml/mood_test.xml
+N mootCore/xml/mood_user.xml
+N mootCore/xml/myHost-mirror.xml
+N mootCore/xml/myHost.xml
+
+No conflicts created by this import
+
+    *
