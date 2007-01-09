@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Tue Jan  9 11:57:00 PST 2007
+mootCore/mootCore
+
+Modified Files:
+	MootQuery.h 
+Log Message:
+Add queries: 1) parameter files requested for a Config
+2) parameter files used for a Config
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Jan  9 11:56:12 PST 2007
 mootCore/maint
 
