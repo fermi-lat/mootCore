@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Tue Jan  9 11:56:12 PST 2007
+mootCore/maint
+
+Modified Files:
+	createMOOD.sql 
+Added Files:
+	createConfigs_to_Parameters.sql 
+Log Message:
+New table to keep track of Parameter files requested when building new Config
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Dec 18 11:42:18 PST 2006
 mootCore/xml
 
