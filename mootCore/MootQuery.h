@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/users/jrb/MOOT/MOOT/MootQuery.h,v 1.14 2006/10/27 22:14:54 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/MootQuery.h,v 1.1.1.1 2006/11/21 01:18:04 jrb Exp $
 // Handles registering a single file into Parameters table.  
 // Might also handle other parts of building a config; TBD.
 #ifndef MOOT_MootQuery_h
@@ -182,8 +182,24 @@ namespace MOOT {
       return classKey("FSW_class", name);
     }
 
-    //    bool getConfigParameters(unsigned configKey, 
-    //                             std::vector<unsigned>& parameterKeys);
+    // Fill supplied argument with parameter class names. Return count
+    unsigned getParameterClasses(std::vector<std::string>& names);
+
+    /**
+       Return keys of parameter entries used to build FSW inputs
+       for this config
+     */
+    bool getConfigParmsUsed(unsigned configKey, 
+                            std::vector<unsigned>& parameterKeys);
+
+
+    /**
+       Return keys of parameter entries supplied when config was
+       created.
+     */
+    bool getConfigParmsRequest(unsigned configKey, 
+                               std::vector<unsigned>& parameterKeys);
+
     
 
   private:
