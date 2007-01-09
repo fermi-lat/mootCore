@@ -1,4 +1,4 @@
-//  $Header: /nfs/slac/g/glast/ground/cvs/users/jrb/MOOT/src/MootQuery.cxx,v 1.17 2006/11/02 01:40:36 jrb Exp $
+//  $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/MootQuery.cxx,v 1.1.1.1 2006/11/21 01:18:04 jrb Exp $
 
 #include <string>
 #include <cstdio>
@@ -568,4 +568,44 @@ namespace MOOT {
     }
     return n;
   }
+
+  bool MootQuery::getConfigParmsUsed(unsigned configKey, 
+                                     std::vector<unsigned>& parameterKeys) {
+    std::vector<std::string> inputKeys;
+    bool ok = getConfigInputs(configKey, inputKeys);
+    if (!ok) return false;
+    if (!parameterKeys.size()) return ok;
+
+    // For each input..
+    for (unsigned i = 0; i < inputKeys.size(); i++) {
+      std::string where(" WHERE FSW_fk='");
+      where += inputKeys[i] + "'";
+      // get all parameter keys assoc. with it in ascending order 
+      unsigned nRet = DbUtil::getKeys(parameterKeys, m_rdb, 
+                                      "FSW_to_Parameters",
+                                      "Parameter_fk", where, 0,
+                                      true);
+    }
+    std::sort(parameterKeys.begin(), parameterKeys.end());
+    return true;
+  }
+
+  bool MootQuery::getConfigParmsRequest(unsigned configKey, 
+                                        std::vector<unsigned>& parameterKeys){
+    std::string where("WHERE config_fk ='");
+    std::string configKeyStr;
+    facilities::Util::utoa(configKey, configKeyStr);
+    where += configKeyStr + std::string("'");
+    DbUtil::getKeys(parameterKeys, m_rdb, "Configs_to_Parameters",
+                    "Parameter_fk", where, 0, true);
+    return true;
+  }
+
+  unsigned MootQuery::getParameterClasses(std::vector<std::string>& names) {
+    int nRet = DbUtil::getAllWhere(m_rdb, "Parameter_class", "name",
+                                   "", names);
+    return nRet;
+  }
+
+
 }
