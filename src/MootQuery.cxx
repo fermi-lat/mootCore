@@ -1,4 +1,4 @@
-//  $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/MootQuery.cxx,v 1.1.1.1 2006/11/21 01:18:04 jrb Exp $
+//  $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/MootQuery.cxx,v 1.2 2007/01/09 19:57:06 jrb Exp $
 
 #include <string>
 #include <cstdio>
@@ -574,7 +574,7 @@ namespace MOOT {
     std::vector<std::string> inputKeys;
     bool ok = getConfigInputs(configKey, inputKeys);
     if (!ok) return false;
-    if (!parameterKeys.size()) return ok;
+    if (!inputKeys.size()) return ok;
 
     // For each input..
     for (unsigned i = 0; i < inputKeys.size(); i++) {
