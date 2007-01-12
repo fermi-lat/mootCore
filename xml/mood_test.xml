@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        dbs="mood_test"
        SchemaVersion="2.0"
-       CVSid= "$Id: mood_test.xml,v 1.1.1.1 2006/11/21 01:18:04 jrb Exp $"   >
+       CVSid= "$Id: mood_test.xml,v 1.2 2006/12/18 19:42:18 jrb Exp $"   >
 
   <table name="Configs"
      comment="Describe configuration instances for MOOT" version="v1r11" >
@@ -378,8 +378,7 @@
 
 <!-- end of Conditions -->
 
-<!-- Instance tables: OfflineCalib, Parameters, FSW_inputs
-      TO DO:  Ancillary            -->
+<!-- Instance tables: OfflineCalib, Parameters, FSW_inputs, Ancillary  -->
   <table name="OfflineCalib" 
     comment="metadata table for LAT calibrations" version="v2r1">
     <!-- define columns -->
@@ -1427,7 +1426,10 @@
       </comment>
     </col>
 
-    <col name="flavor" >
+<!-- probably don't want this.  Will be replaced with some sort of
+     intent handling, TBD
+-->
+    <!-- col name="flavor" >
       <src null="false" stickyInsert="true">
         <default value="default" />
       </src>
@@ -1438,7 +1440,7 @@
       </type>
       <comment>Normal production parameter files will be of flavor 'default'
       </comment>
-    </col>
+    </col -->
 
     <col name="description" >
       <src null="false" >
