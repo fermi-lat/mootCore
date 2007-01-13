@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/MootQuery.h,v 1.1.1.1 2006/11/21 01:18:04 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/MootQuery.h,v 1.2 2007/01/09 19:57:00 jrb Exp $
 // Handles registering a single file into Parameters table.  
 // Might also handle other parts of building a config; TBD.
 #ifndef MOOT_MootQuery_h
@@ -162,6 +162,12 @@ namespace MOOT {
                            const std::string& status="CREATED",
                            const std::string& instr="LAT",
                            const std::string& mode="");
+
+    /**
+       Return pointer to ConfigInfo for the single Config specified by key.
+       Return 0 if not found or other failure.
+     */
+    ConfigInfo* getConfigInfo(unsigned key);
 
     /**
        Translate  class key to corresponding string.
