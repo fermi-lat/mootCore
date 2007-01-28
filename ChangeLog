@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Sun Jan 28 11:41:25 PST 2007
+mootCore/xml
+
+Modified Files:
+	mood_test.xml 
+Log Message:
+Get rid of commented-out sections
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Jan 12 17:55:31 PST 2007
 mootCore/src/test
 
