@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Sun Jan 28 11:45:04 PST 2007
+mootCore/xml
+
+Modified Files:
+	mood.xml mood_test.xml mood_user.xml 
+Log Message:
+Clean up: eliminate commented-out column descriptions in Ancillary table.
+
+    *
+------------------------------------------------------------
 User: jrb  Sun Jan 28 11:41:25 PST 2007
 mootCore/xml
 
