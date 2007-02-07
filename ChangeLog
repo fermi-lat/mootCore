@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Tue Feb  6 16:07:49 PST 2007
+mootCore/maint
+
+Added Files:
+	createAncillary_aliases.sql createPrecincts.sql 
+	createVotes.sql 
+Log Message:
+More tables for intent machinery
+
+    *
+------------------------------------------------------------
 User: jrb  Sun Jan 28 11:45:04 PST 2007
 mootCore/xml
 
