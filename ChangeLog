@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: jrb  Wed Feb  7 12:13:06 PST 2007
+mootCore/maint
+
+Modified Files:
+	createAncillary_aliases.sql createMOOD.sql createPrecincts.sql 
+	createVotes.sql 
+Log Message:
+createMOOD: add lines to create new tables Precincts, Votes and
+            Ancillary_aliases.  Comment out line to create Conditions
+Other files: little fixes to make them valid sql.
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Feb  6 16:07:49 PST 2007
 mootCore/maint
 
