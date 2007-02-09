@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Fri Feb  9 12:31:43 PST 2007
+mootCore/xml
+
+Modified Files:
+	mood.xml mood_user.xml 
+Log Message:
+Get rid of Conditions table and unused fields in Parameters table, as
+was already done for mood_test.xml
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Feb  8 16:57:18 PST 2007
 mootCore/xml
 
