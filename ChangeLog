@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: jrb  Tue Mar 27 15:56:04 PDT 2007
+mootCore/maint
+
+Modified Files:
+	createMOOD.sql createParameters.sql createPrecincts.sql 
+	createVotes.sql 
+Added Files:
+	createVote_aliases.sql 
+Log Message:
+various small additions and changes needed for intent; more to come.
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Mar 26 11:10:29 PDT 2007
 mootCore/xml
 
