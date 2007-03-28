@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue Mar 27 18:11:38 PDT 2007
+mootCore/xml
+
+Modified Files:
+	mood_test.xml 
+Log Message:
+Add a couple of the new tables (Precincts, Votes) to the xml description
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Mar 27 18:11:16 PDT 2007
 mootCore/maint
 
