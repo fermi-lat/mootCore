@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Wed Mar 28 18:10:28 PDT 2007
+mootCore/maint
+
+Modified Files:
+	createParameters.sql createVote_aliases.sql 
+Log Message:
+createParameters is now consistent with changes laid out in
+http://www.slac.stanford.edu/exp/glast/ground/notes/moot/intent.shtml#db
+Small bug fix in createVote_aliases.sql 
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Mar 27 18:11:38 PDT 2007
 mootCore/xml
 
