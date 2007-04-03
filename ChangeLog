@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Tue Apr  3 15:28:31 PDT 2007
+mootCore/xml
+
+Modified Files:
+	init-mood_test.xml intent.xsd 
+Log Message:
+init-mood_test.xml: Add precincts, maybe other stuff
+intent.xsd:  Update for Eric's latest (insofar as I know what that is)
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Mar 28 18:10:28 PDT 2007
 mootCore/maint
 
