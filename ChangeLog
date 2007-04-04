@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: panetta  Wed Apr  4 10:50:16 PDT 2007
+mootCore/maint
+
+Modified Files:
+	createMOOD.sql 
+Log Message:
+Missing two '.sql' suffixes for the alias table creation
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Apr  3 15:28:31 PDT 2007
 mootCore/xml
 
