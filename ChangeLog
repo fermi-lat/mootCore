@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Fri Apr  6 11:00:30 PDT 2007
+mootCore/maint
+
+Modified Files:
+	createAncillary.sql createAncillary_class.sql createVotes.sql 
+Log Message:
+createAncillary.sql: eliminate flavor field; add GMT_creation_tim
+createVotes.sql:  eliminate name field
+createAncillary_class.sql:  Add delegate_fk
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Apr  4 16:43:49 PDT 2007
 mootCore/xml
 
