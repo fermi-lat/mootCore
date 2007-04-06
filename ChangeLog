@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Fri Apr  6 11:01:38 PDT 2007
+mootCore/xml
+
+Modified Files:
+	init-mood_test.xml mood_test.xml 
+Log Message:
+init-mood_test.xml:  add a bunch of Parameter_class entries among others
+mood_test.xml:       keep up with some of db structure changes, e.g.
+                     eliminate name field in Votes table description.
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Apr  6 11:00:30 PDT 2007
 mootCore/maint
 
