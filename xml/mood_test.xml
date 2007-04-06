@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        dbs="mood_test"
        SchemaVersion="2.0"
-       CVSid= "$Id: mood_test.xml,v 1.6 2007/02/09 00:57:18 jrb Exp $"   >
+       CVSid= "$Id: mood_test.xml,v 1.7 2007/03/28 01:11:38 jrb Exp $"   >
 
   <table name="Configs"
      comment="Describe configuration instances for MOOT" version="v1r11" >
@@ -331,15 +331,6 @@ version="v1r0" >
       </type>
       <comment>This is the primary key, automatically set when a 
           row is inserted.</comment>
-    </col>
-
-    <col name="name" >
-      <src null="false">
-        <from agent="enduser" />
-      </src>
-      <type typename="varchar" size="32" />
-      <comment>user-friendly way to identify the vote. Need not be unique.
-      </comment>
     </col>
 
     <col name="precinct_fk" >
@@ -1613,6 +1604,19 @@ version="v1r0" >
     <comment>Whatever else should be noted about this class
     </comment>
   </col>
+
+    <col name="delegate_fk">
+      <src null="true">
+        <from agent="enduser" />
+      </src>
+      <type typename="int" unsigned="true" >
+        <restriction>          
+          <nonnegative />   
+        </restriction>
+      </type>
+      <fk tableName="Delegates" keyCol="delegate_key" />
+      <comment>Delegate which owns this kind of Ancillary file</comment>
+    </col>
 
   <primary col="Ancillary_class_key" />
 
