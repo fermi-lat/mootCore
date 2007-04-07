@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Fri Apr  6 18:57:24 PDT 2007
+mootCore/xml
+
+Modified Files:
+	init-mood_test.xml mood_test.xml 
+Log Message:
+init-mood_test.xml: Add stuff for parameter and ancillary classes;
+             comment out setting of FClass_to_PClass
+mood_test.xml:  Add definitions for Ancillary_aliases and Vote_aliases
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Apr  6 11:01:38 PDT 2007
 mootCore/xml
 
