@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Mon Apr 23 18:06:56 PDT 2007
+mootCore/maint
+
+Modified Files:
+	createVotes.sql 
+Log Message:
+Change 'status' column to be similar to other registered/archived things
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Apr  6 18:57:24 PDT 2007
 mootCore/xml
 
