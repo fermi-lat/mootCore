@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Mon Apr 23 18:08:22 PDT 2007
+mootCore/xml
+
+Modified Files:
+	intent.xsd intent_example.xml mood_test.xml 
+Log Message:
+intent.xsd:  wrong label for one of the AFE registers
+mood_test.xml:  adjust for modified status column in Votes table
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Apr 23 18:07:31 PDT 2007
 mootCore/src
 
