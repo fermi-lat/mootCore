@@ -1,4 +1,18 @@
 ------------------------------------------------------------
+User: jrb  Wed Apr 25 12:46:07 PDT 2007
+mootCore/xml
+
+Modified Files:
+	intent.xsd 
+Added Files:
+	intent_v1r0p0.xsd intent_v2r0p0.xsd 
+Log Message:
+intent.xsd is always most current version.  Also save copies labeled
+with version info in CVS.  These must be in Votes subdirectory of
+the MOOT archive as well.
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Apr 23 18:08:22 PDT 2007
 mootCore/xml
 
