@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Wed Apr 25 15:47:37 PDT 2007
+mootCore/xml
+
+Modified Files:
+	intent.xsd intent_v2r0p0.xsd 
+Log Message:
+Quick slip in a couple changes without change to _vXrYpZ since no
+one had a chance to actually use the previous versio (in CVS sense)
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Apr 25 12:46:07 PDT 2007
 mootCore/xml
 
