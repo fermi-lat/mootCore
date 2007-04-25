@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Wed Apr 25 16:32:09 PDT 2007
+mootCore/xml
+
+Modified Files:
+	init-mood_test.xml 
+Log Message:
+Adjust initialization input to be in accord with recent mods in precinct
+names and parameter class names
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Apr 25 15:47:37 PDT 2007
 mootCore/xml
 
