@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: jrb  Thu Apr 26 14:57:31 PDT 2007
+mootCore/maint
+
+Modified Files:
+	createAncillary.sql createMOOD.sql 
+Added Files:
+	createVote_PClass_AClass.sql 
+Log Message:
+New table which, for each vote file, stores entries relating 
+parameter classes to the ancillary classes used to generate them
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Apr 26 14:36:58 PDT 2007
 mootCore/xml
 
