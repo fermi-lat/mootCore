@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        dbs="mood_test"
        SchemaVersion="2.0"
-       CVSid= "$Id: mood_test.xml,v 1.10 2007/04/24 01:08:22 jrb Exp $"   >
+       CVSid= "$Id: mood_test.xml,v 1.11 2007/04/26 20:02:19 jrb Exp $"   >
 
   <table name="Configs"
      comment="Describe configuration instances for MOOT" version="v1r11" >
@@ -1477,7 +1477,7 @@ version="v1r0" >
              it and put it in this field.
       </comment>
     </col>
-    <col name="tower" >
+<!--    <col name="tower" >
       <src null="false" >
         <default value="-1" />
       </src>
@@ -1489,6 +1489,7 @@ version="v1r0" >
       <comment> Special value -1 signifies all or irrelevant
       </comment>
     </col>
+-->
     <primary col="Ancillary_key" />
 </table>
 
