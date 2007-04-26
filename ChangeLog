@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Apr 26 14:57:54 PDT 2007
+mootCore/mootCore
+
+Modified Files:
+	MootQuery.h 
+Log Message:
+Get rid of all references to Ancillary.tower; this column is deprecated
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Apr 26 14:57:31 PDT 2007
 mootCore/maint
 
