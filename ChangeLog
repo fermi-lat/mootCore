@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu Apr 26 14:36:58 PDT 2007
+mootCore/xml
+
+Modified Files:
+	mood.xml mood_test.xml mood_user.xml 
+Log Message:
+Eliminiate tower column from Ancillary table (only in xml description so far;
+column still exists in dbs but is unused)
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Apr 26 13:02:20 PDT 2007
 mootCore/xml
 
