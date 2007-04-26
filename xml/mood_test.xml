@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        dbs="mood_test"
        SchemaVersion="2.0"
-       CVSid= "$Id: mood_test.xml,v 1.9 2007/04/07 01:57:24 jrb Exp $"   >
+       CVSid= "$Id: mood_test.xml,v 1.10 2007/04/24 01:08:22 jrb Exp $"   >
 
   <table name="Configs"
      comment="Describe configuration instances for MOOT" version="v1r11" >
@@ -2383,7 +2383,7 @@ version="v1r0" >
   </table>
 
 
-
+<!--
   <table name="PClass_to_AClass" gui_readonly="true" version="v1r0"
     comment="relate Parameter file classes to Ancillary file classes
     which are their sources">
@@ -2440,9 +2440,8 @@ version="v1r0" >
     </col>
     <primary col="prim_key" /> 
 
-    <!-- index name="PClass_fk_index" cols="PClass_fk" / -->
   </table>
-
+-->
   <table name="Instrument" gui_readonly="true" version="v1r0"
     comment="describe tower configuration for an instrument">
 
