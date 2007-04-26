@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Thu Apr 26 13:02:20 PDT 2007
+mootCore/xml
+
+Modified Files:
+	init-mood_test.xml mood.xml mood_test.xml mood_user.xml 
+Log Message:
+init-mood_test.xml:  Add precinct entries for TRG_GEM and LATC_all
+others:  eliminate description of deprecated table PClass_to_AClass.
+        Vote_PClass_AClass will be added instead.
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Apr 25 16:32:09 PDT 2007
 mootCore/xml
 
