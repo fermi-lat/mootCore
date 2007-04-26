@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu Apr 26 14:58:35 PDT 2007
+mootCore/xml
+
+Modified Files:
+	mood_test.xml 
+Log Message:
+Get rid of  Ancillary.tower; this column is deprecated. Also add description
+for Votes_PClass_AClass table
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Apr 26 14:58:00 PDT 2007
 mootCore/src
 
