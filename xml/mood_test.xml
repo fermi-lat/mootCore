@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        dbs="mood_test"
        SchemaVersion="2.0"
-       CVSid= "$Id: mood_test.xml,v 1.13 2007/04/26 21:58:34 jrb Exp $"   >
+       CVSid= "$Id: mood_test.xml,v 1.14 2007/04/27 00:49:51 jrb Exp $"   >
 
   <table name="Configs"
      comment="Describe configuration instances for MOOT" version="v1r11" >
@@ -1530,6 +1530,34 @@ version="v1r0" >
       </comment>
     </col>
 
+    <col name="active_state" >
+      <src null="false">
+        <default value="ACTIVE" />
+      </src>
+      <type typename="enum" >
+        <restriction>
+          <enum use="require" values="ACTIVE INACTIVE" />
+        </restriction>
+      </type>
+      <comment>Allows for changes in collection of usable
+             Parameter classes.
+        </comment>
+    </col>
+
+    <col name="precinct_fk">
+      <src null="true">
+        <from agent="enduser" />
+      </src>
+      <type typename="int" unsigned="true" >
+        <restriction>          
+          <nonnegative />   
+        </restriction>
+      </type>
+      <fk tableName="Precincts" keyCol="precinct_key" />
+      <comment>Precinct responsible for generating parameter files
+               of this class </comment>
+    </col>
+<!-- deprecated
     <col name="delegate_fk">
       <src null="true">
         <from agent="enduser" />
@@ -1542,6 +1570,7 @@ version="v1r0" >
       <fk tableName="Delegates" keyCol="delegate_key" />
       <comment>Delegate which manages this kind of Parameter</comment>
     </col>
+-->
 
     <primary col="Parameter_class_key" />
 
