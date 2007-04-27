@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Apr 27 16:52:09 PDT 2007
+mootCore/maint
+
+Modified Files:
+	createParameter_class.sql 
+Log Message:
+Add columns precinct_fk, active_state.  delegate_fk is deprecated
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Apr 26 17:49:51 PDT 2007
 mootCore/xml
 
