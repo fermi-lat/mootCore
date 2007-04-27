@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu Apr 26 17:49:51 PDT 2007
+mootCore/xml
+
+Modified Files:
+	intent.xsd intent_v2r0p0.xsd mood_test.xml 
+Log Message:
+*.xsd Fix bug in intent schema
+mood_test.xml  add a_alias column to Vote_PClass_AClass
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Apr 26 17:49:02 PDT 2007
 mootCore/maint
 
