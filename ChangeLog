@@ -1,4 +1,18 @@
 ------------------------------------------------------------
+User: jrb  Fri Apr 27 16:53:48 PDT 2007
+mootCore/xml
+
+Modified Files:
+	init-mood_test.xml mood_test.xml 
+Log Message:
+mood_test.xml: Add columns precinct_fk, active_state to Parameter_class
+               table, remove  delegate_fk.
+init-mood_test.xml:  Initialize Parameter_class.precinct_fk
+                     Other changes to keep names of ancillary files, etc.
+                     compatible with intent.xsd
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Apr 27 16:52:09 PDT 2007
 mootCore/maint
 
