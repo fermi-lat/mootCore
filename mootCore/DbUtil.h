@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/users/jrb/MOOT/src/DbUtil.h,v 1.7 2006/10/27 22:16:36 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/DbUtil.h,v 1.1.1.1 2006/11/21 01:18:04 jrb Exp $
 // Handles registering a single file into Parameters table.  
 // Might also handle other parts of building a config; TBD.
 #ifndef MOOT_DbUtil_h
@@ -47,8 +47,9 @@ namespace MOOT {
                                       bool onlyOne=true,
                                       bool forUpdate=false);
 
-    /// Utility to get a single column value from possibly multiple
-    /// rows.  Return value is number of rows found, or -1 for error.
+    /// Utility to get a single column value (ascending order) 
+    /// from possibly multiple
+    /// rows.   Return value is number of rows found, or -1 for error.
     /// This function will append results to vals vector
     static int getAllWhere(rdbModel::Rdb* rdb,
                             const std::string& table,
