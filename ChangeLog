@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Mon Apr 30 17:05:29 PDT 2007
+mootCore/maint
+
+Modified Files:
+	createVote_PClass_AClass.sql 
+Log Message:
+Modify aclass_fk description to allow NULL
+
+    *
+------------------------------------------------------------
 User: jrb  Sun Apr 29 23:50:51 PDT 2007
 mootCore/xml
 
