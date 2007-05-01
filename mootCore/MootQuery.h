@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/MootQuery.h,v 1.5 2007/04/30 06:49:17 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/MootQuery.h,v 1.6 2007/05/01 00:06:00 jrb Exp $
 // Handles registering a single file into Parameters table.  
 // Might also handle other parts of building a config; TBD.
 #ifndef MOOT_MootQuery_h
@@ -219,6 +219,8 @@ namespace MOOT {
     unsigned resolveVoteAlias(const std::string& alias,
                               const std::string& precinct);
 
+    /// The "vote" referred to may concern a single precinct or may
+    /// be container file, referring to several individual precinct files.
     bool voteIsUpToDate(unsigned voteKey);
 
   private:
@@ -226,6 +228,13 @@ namespace MOOT {
     /// @a ancClassKey is ancillary class key as string
     unsigned resolveAncAliasByKey(const std::string& alias, 
                              const std::string& ancClassKey);
+
+    unsigned resolveAncAliases(std::vector<std::string>& ancKeys,
+                               const std::string& voteKeyStr);
+
+    bool voteIsUpToDate(const std::string& voteKeyStr);
+
+    bool containerIsUpToDate(const std::string& voteKeyStr);
 
     rdbModel::Rdb* m_rdb;
     MoodConnection* m_mood;
