@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue May  1 15:13:58 PDT 2007
+mootCore/xml
+
+Modified Files:
+	mood_test.xml 
+Log Message:
+Add new tables to store information as vote files are registered
+
+    *
+------------------------------------------------------------
 User: jrb  Tue May  1 15:13:17 PDT 2007
 mootCore/src
 
