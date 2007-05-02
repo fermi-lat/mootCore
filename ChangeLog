@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed May  2 16:56:16 PDT 2007
+mootCore/xml
+
+Modified Files:
+	intent.xsd intent_v2r0p0.xsd 
+Log Message:
+Change name of top-level element for container file to LATC_GLOBAL_INTENT
+
+    *
+------------------------------------------------------------
 User: jrb  Tue May  1 15:13:58 PDT 2007
 mootCore/xml
 
