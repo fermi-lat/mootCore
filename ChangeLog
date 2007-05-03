@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: jrb  Thu May  3 11:59:02 PDT 2007
+mootCore/xml
+
+Modified Files:
+	init-mood_test.xml mood_test.xml 
+Log Message:
+mood_test.xml:  add uniqueness constraint in FClass_to_PClass
+init-mood_test.xml:  add entries in FClass_to_PClass for parameter files
+   defined by intent.xsd and also for automatically-generated 'back-up'
+   parameter files
+
+    *
+------------------------------------------------------------
 User: jrb  Thu May  3 11:57:33 PDT 2007
 mootCore/maint
 
