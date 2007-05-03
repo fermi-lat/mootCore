@@ -1,4 +1,19 @@
 ------------------------------------------------------------
+User: jrb  Wed May  2 18:19:35 PDT 2007
+mootCore/maint
+
+Modified Files:
+	createAncillary.sql createConfigs.sql 
+Added Files:
+	createLATC_Backup.sql 
+Log Message:
+createAncillary.sql:   name timestamp column properly
+createConfigs.sql:     add vote_fk column
+createLATC_Backup.sql  New table to keep track of which latc backup file
+                       needs to be created for a particular component
+
+    *
+------------------------------------------------------------
 User: jrb  Wed May  2 16:56:16 PDT 2007
 mootCore/xml
 
