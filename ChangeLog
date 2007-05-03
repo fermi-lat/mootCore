@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu May  3 11:57:33 PDT 2007
+mootCore/maint
+
+Modified Files:
+	createFClass_to_PClass.sql 
+Log Message:
+Add uniqueness constraint for PClass_fk
+
+    *
+------------------------------------------------------------
 User: jrb  Wed May  2 19:43:01 PDT 2007
 mootCore/maint
 
