@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        dbs="mood_test"
        SchemaVersion="2.0"
-       CVSid= "$Id: mood_test.xml,v 1.17 2007/05/01 22:13:58 jrb Exp $"   >
+       CVSid= "$Id: mood_test.xml,v 1.18 2007/05/03 01:36:22 jrb Exp $"   >
 
   <table name="Configs"
      comment="Describe configuration instances for MOOT" version="v1r11" >
@@ -2709,7 +2709,7 @@ version="v1r0" >
       </comment>
     </col>
     <primary col="prim_key" /> 
-
+    <index name="uniqueness" cols="FSW_fk pclass_fk" />
   </table>
 
 
