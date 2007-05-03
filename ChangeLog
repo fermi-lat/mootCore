@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Wed May  2 19:21:41 PDT 2007
+mootCore/xml
+
+Modified Files:
+	init-mood_test.xml 
+Log Message:
+Fix up to be consistent with latest assignment of precinct names, 
+ancillary class names
+
+    *
+------------------------------------------------------------
 User: jrb  Wed May  2 18:36:23 PDT 2007
 mootCore/xml
 
