@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Wed May  2 19:42:14 PDT 2007
+mootCore/xml
+
+Modified Files:
+	init-mood_test.xml mood_test.xml 
+Log Message:
+mood_test.xml  Add uniqueness constraint for LATC_Backup (FSW_fk,pclass_fk)
+init-mood_test.xml Eliminate duplicate
+
+    *
+------------------------------------------------------------
 User: jrb  Wed May  2 19:21:41 PDT 2007
 mootCore/xml
 
