@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Fri May  4 11:23:22 PDT 2007
+mootCore/xml
+
+Modified Files:
+	init-mood_test.xml mood_test.xml 
+Log Message:
+mood_test.xml  change uniqueness constraint for LATC_Backup; get rid 
+               of deprecated columns flavor, vend, vstart in Parameters
+init-mood_test.xml  add more entries for LATC_Backup
+
+    *
+------------------------------------------------------------
 User: jrb  Fri May  4 11:21:59 PDT 2007
 mootCore/maint
 
