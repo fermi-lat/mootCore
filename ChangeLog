@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri May  4 11:21:59 PDT 2007
+mootCore/maint
+
+Modified Files:
+	createLATC_Backup.sql 
+Log Message:
+Change uniqueness constraint.  Should be just on FSW_fk
+
+    *
+------------------------------------------------------------
 User: jrb  Thu May  3 11:59:02 PDT 2007
 mootCore/xml
 
