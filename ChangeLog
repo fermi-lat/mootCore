@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed May  9 11:01:02 PDT 2007
+mootCore/src
+
+Modified Files:
+	MootQuery.cxx 
+Log Message:
+Bug fixes suggested by David D.
+
+    *
+------------------------------------------------------------
 User: jrb  Fri May  4 11:23:22 PDT 2007
 mootCore/xml
 
