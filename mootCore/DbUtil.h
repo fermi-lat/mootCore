@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/DbUtil.h,v 1.1.1.1 2006/11/21 01:18:04 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/DbUtil.h,v 1.2 2007/05/01 18:37:23 jrb Exp $
 // Handles registering a single file into Parameters table.  
 // Might also handle other parts of building a config; TBD.
 #ifndef MOOT_DbUtil_h
@@ -62,6 +62,7 @@ namespace MOOT {
        rows satisfying condition in where.  By default return in descending
        order, so newest is always returned. May specify ascending, 
        however.
+       @return number of keys satisfying the condition
      */
     static unsigned getKeys(std::vector<unsigned>& keys,
                             rdbModel::Rdb* rdb, const std::string& table,
