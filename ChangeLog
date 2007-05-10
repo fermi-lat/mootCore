@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu May 10 14:00:35 PDT 2007
+mootCore/mootCore
+
+Modified Files:
+	DbUtil.h MootQuery.h 
+Log Message:
+DbUtil.h:  improve comments
+MootQuery.h:  Add some of Jim's requested queries
+
+    *
+------------------------------------------------------------
 User: jrb  Wed May  9 11:01:02 PDT 2007
 mootCore/src
 
