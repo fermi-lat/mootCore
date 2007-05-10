@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        dbs="mood_test"
        SchemaVersion="2.0"
-       CVSid= "$Id: mood_test.xml,v 1.20 2007/05/03 18:59:02 jrb Exp $"   >
+       CVSid= "$Id: mood_test.xml,v 1.21 2007/05/04 18:23:22 jrb Exp $"   >
 
   <table name="Configs"
      comment="Describe configuration instances for MOOT" version="v1r11" >
@@ -387,6 +387,14 @@ version="v1r0" >
          STARTED before the copy, then update to CREATED if copy is
          successful, file parses and has acceptable contents.
       </comment>
+    </col>
+
+    <col name="instrument">
+      <src null="false">
+        <default value="LAT" />
+      </src>
+      <type typename="varchar" size="16" />
+      <comment>Instrument to which this vote applies </comment>
     </col>
 
 
