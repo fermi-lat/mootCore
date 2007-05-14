@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Mon May 14 12:47:20 PDT 2007
+mootCore/mootCore
+
+Modified Files:
+	DbUtil.h MootQuery.h 
+Log Message:
+DbUtil: Added optional arg. to getAllWhere (David D.)
+MootQuery.h: Added comments
+
+    *
+------------------------------------------------------------
 User: jrb  Thu May 10 14:20:00 PDT 2007
 mootCore/xml
 
