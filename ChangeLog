@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Mon May 14 12:48:09 PDT 2007
+mootCore/src
+
+Modified Files:
+	DbUtil.cxx MootQuery.cxx 
+Log Message:
+DbUtil: Added optional arg. to getAllWhere (David D.)
+MootQuery: Added comments; changed resolveAncAliases from returning unsigned
+           to returning void
+
+    *
+------------------------------------------------------------
 User: jrb  Mon May 14 12:47:20 PDT 2007
 mootCore/mootCore
 
