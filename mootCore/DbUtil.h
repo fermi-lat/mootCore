@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/DbUtil.h,v 1.2 2007/05/01 18:37:23 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/DbUtil.h,v 1.3 2007/05/10 21:00:35 jrb Exp $
 // Handles registering a single file into Parameters table.  
 // Might also handle other parts of building a config; TBD.
 #ifndef MOOT_DbUtil_h
@@ -55,7 +55,8 @@ namespace MOOT {
                             const std::string& table,
                             const std::string& col,
                             const std::string& where,
-                            std::vector<std::string>& vals);
+                            std::vector<std::string>& vals,
+                            bool atLeastOne = false);
 
     /**
        return keys (up to value of limit if limit > 0)  for all 
