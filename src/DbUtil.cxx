@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/DbUtil.cxx,v 1.1.1.1 2006/11/21 01:18:04 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/DbUtil.cxx,v 1.2 2007/04/24 01:07:31 jrb Exp $
 
 #include <cstdio>
 // #include <cstdlib>
@@ -148,7 +148,8 @@ namespace MOOT {
                           const std::string& table,
                           const std::string& col,
                           const std::string& where,
-                          std::vector<std::string>& vals) {
+                          std::vector<std::string>& vals,
+                          bool atLeastOne) {
     if (!connected(rdb)) return -1;
 
     rdbModel::StringVector getCols;
@@ -175,6 +176,10 @@ namespace MOOT {
       }
     }
     delete res;
+
+    if (( res <= 0) && atLeastOne)
+      throw DbUtilException("DbUtil::getColumnValue: no valid match");
+
     return nFetched;
   }
 
