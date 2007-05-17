@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu May 17 12:56:29 PDT 2007
+mootCore/src
+
+Modified Files:
+	MootQuery.cxx 
+Log Message:
+Make classKey and classStr functions more robust: look up primary key
+column name rather than attempting to construct it.
+
+    *
+------------------------------------------------------------
 User: jrb  Wed May 16 17:26:29 PDT 2007
 mootCore/src/test
 
