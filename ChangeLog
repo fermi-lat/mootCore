@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed May 16 17:26:05 PDT 2007
+mootCore/src
+
+Modified Files:
+	MootQuery.cxx 
+Log Message:
+Add get*Info functions. 
+
+    *
+------------------------------------------------------------
 User: jrb  Wed May 16 17:25:50 PDT 2007
 mootCore/mootCore
 
