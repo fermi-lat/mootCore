@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Wed May 16 17:25:50 PDT 2007
+mootCore/mootCore
+
+Modified Files:
+	FileDescrip.h MootQuery.h 
+Log Message:
+FileDescrip.h:  Add definitions of several info structures
+MootQuery.h:    Add get*Info functions. 
+
+    *
+------------------------------------------------------------
 User: jrb  Mon May 14 12:48:09 PDT 2007
 mootCore/src
 
