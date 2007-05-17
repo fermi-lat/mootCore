@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed May 16 17:26:29 PDT 2007
+mootCore/src/test
+
+Modified Files:
+	test_queries.cxx 
+Log Message:
+Minor changes to stay consistent with names of query services
+
+    *
+------------------------------------------------------------
 User: jrb  Wed May 16 17:26:05 PDT 2007
 mootCore/src
 
