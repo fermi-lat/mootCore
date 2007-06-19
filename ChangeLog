@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: jrb  Tue Jun 19 14:09:12 PDT 2007
+mootCore/xml
+
+Modified Files:
+	init-mood_test.xml intent.xsd 
+Log Message:
+init-mood_test.xml: Add more ancillary file classes, precincts for LCI
+intent.xsd: Compatible (I hope) with inline-type vote files for LATC
+           precincts and LPA container vote files as currently written
+           by Eric's stuff
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r3, operation: add
 Package: mootCore
