@@ -1,4 +1,18 @@
 ------------------------------------------------------------
+User: jrb  Thu Jun 28 16:00:43 PDT 2007
+mootCore/xml
+
+Modified Files:
+	init-mood_test.xml intent.xsd 
+Log Message:
+init-mood_test.xml  Add new CAL ancillary files
+intent.xsd          1. Add some ancillary file elements and constants elements
+                       for CAL precincts
+                    2. Define ACD_LCI precinct and everything it depends on
+                    3. Defs for container elements LPA_INTENT, LCI_INTENT
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Jun 19 14:09:12 PDT 2007
 mootCore/xml
 
