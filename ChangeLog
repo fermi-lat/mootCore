@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Fri Jun 29 12:47:06 PDT 2007
+mootCore/xml
+
+Added Files:
+	intent_v2r5p0.xsd 
+Log Message:
+Label intent.xsd with version.  Describes lci precincts for ACD, CAL and
+TKR and also LCI container files.
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Jun 28 17:21:54 PDT 2007
 mootCore/xml
 
