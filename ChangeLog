@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Fri Jun 29 18:07:45 PDT 2007
+mootCore/xml
+
+Modified Files:
+	mood.xml mood_user.xml 
+Log Message:
+Add Precincts and Votes tables to xml description
+ (they have existed in databases for a while)
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Jun 29 12:47:06 PDT 2007
 mootCore/xml
 
