@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: jrb  Mon Jul  2 12:46:08 PDT 2007
+mootCore/xml
+
+Modified Files:
+	mood.xml mood_user.xml 
+Log Message:
+mood and mood_user dbs structures now match mood_test.  xml desriptions are
+now all identical with one minor exception:  mood.xml and mood_user.xml omit
+description of Configs.vote_fk column.  It exists in all databases but is
+unused by code, so no need to put it in xml description yet.
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Jul  2 12:44:39 PDT 2007
 mootCore/maint
 
