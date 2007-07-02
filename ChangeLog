@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Mon Jul  2 12:44:39 PDT 2007
+mootCore/maint
+
+Modified Files:
+	createConfigs.sql 
+Log Message:
+Add constraints to vote_fk column.
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Jun 29 18:07:45 PDT 2007
 mootCore/xml
 
