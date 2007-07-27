@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Jul 27 16:21:44 PDT 2007
+mootCore/src/test
+
+Modified Files:
+	test_queries.cxx 
+Log Message:
+Start on implements MootQuery::getVoteParameters
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Jul 27 16:16:33 PDT 2007
 mootCore/src
 
