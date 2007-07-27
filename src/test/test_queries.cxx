@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/test/test_queries.cxx,v 1.4 2007/05/10 21:00:59 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/test/test_queries.cxx,v 1.5 2007/05/17 00:26:29 jrb Exp $
 
 // Exercise query routines
 
@@ -461,6 +461,19 @@ int main(int nargs, char**)    {
     if ((ix % 3) == 2) std::cout << std::endl;
   }
   std::cout << std::endl;
+
+  std::vector<unsigned> pkeys;
+  unsigned voteKey = 3;
+  bool isUpToDate = q.getVoteParameters(voteKey, pkeys);
+  if (isUpToDate) {
+    std::cout << "For vote with key=" << voteKey << " found " << pkeys.size()
+              << " parameter files with keys:" << std::endl;
+    for (unsigned ikey = 0; ikey < pkeys.size(); ikey++) {
+      std::cout << pkeys[ikey] << std::endl;
+    }
+  }
+  else std::cout << "Vote with key=" << voteKey << " was not up to date" 
+                 << std::endl;
 
   return 0;
 }
