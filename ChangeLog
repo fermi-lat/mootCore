@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Jul 27 16:16:20 PDT 2007
+mootCore/mootCore
+
+Modified Files:
+	MootQuery.h 
+Log Message:
+Start on implements MootQuery::getVoteParameters
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r4, operation: add
 Package: mootCore
