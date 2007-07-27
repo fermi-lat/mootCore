@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Jul 27 16:16:33 PDT 2007
+mootCore/src
+
+Modified Files:
+	MootQuery.cxx py_mootCore.in 
+Log Message:
+Start on implements MootQuery::getVoteParameters
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Jul 27 16:16:20 PDT 2007
 mootCore/mootCore
 
