@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Jul 27 18:22:11 PDT 2007
+mootCore/src/test
+
+Modified Files:
+	test_queries.cxx 
+Log Message:
+Adjust test program somewhat for testing getVoteParameters on Jim's dbs
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Jul 27 16:21:44 PDT 2007
 mootCore/src/test
 
