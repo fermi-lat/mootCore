@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/MootQuery.h,v 1.10 2007/05/17 00:25:50 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/MootQuery.h,v 1.11 2007/07/27 23:16:20 jrb Exp $
 // Handles registering a single file into Parameters table.  
 // Might also handle other parts of building a config; TBD.
 #ifndef MOOT_MootQuery_h
@@ -242,7 +242,8 @@ namespace MOOT {
 
     /**
        Return ancillary alias keys satisfying specified conditions on fields
-       in Ancillary_alias table.  "*" means "don't cut on this condition"
+       in Ancillary_alias table.  "*" means "don't cut on this condition".
+       Keys are returned in descending order.
      */
     unsigned listAncAliasKeys(std::vector<unsigned>& keys,
                               const std::string& aClass="*",
