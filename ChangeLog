@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Mon Jul 30 17:05:33 PDT 2007
+mootCore/src
+
+Modified Files:
+	MootQuery.cxx 
+Log Message:
+slight change to behavior of listAncAliases as requested and a
+couple bug fixes (thanks, Jim).
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Jul 27 18:22:11 PDT 2007
 mootCore/src/test
 
