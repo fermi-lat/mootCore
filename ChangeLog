@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: jrb  Tue Jul 31 17:11:11 PDT 2007
+mootCore/xml
+
+Modified Files:
+	intent.xsd 
+Log Message:
+1. Add <TKR_ChargeScaleCalibration> to content of <TKR_Mode-anc>
+2. Indicate which parameter classes are optional for a precinct and
+   which are required
+3. Allow <paramsNeeded> element to substitute for <somePrecinct-param>
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Jul 30 17:06:02 PDT 2007
 mootCore/mootCore
 
