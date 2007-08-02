@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed Aug  1 17:36:15 PDT 2007
+mootCore/xml
+
+Added Files:
+	intent_v2r6p0.xsd 
+Log Message:
+There are enough changes in intent.xsd to merit a new version number
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Jul 31 17:11:11 PDT 2007
 mootCore/xml
 
