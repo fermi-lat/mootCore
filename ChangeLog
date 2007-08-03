@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Fri Aug  3 14:34:33 PDT 2007
+mootCore/src
+
+Modified Files:
+	MootQuery.cxx 
+Log Message:
+Changes to get voteIsUpToDate to work.  Handle container votes. Fix
+some service routines.
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Aug  3 14:33:57 PDT 2007
 mootCore/mootCore
 
