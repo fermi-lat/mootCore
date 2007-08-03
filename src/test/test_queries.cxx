@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/test/test_queries.cxx,v 1.6 2007/07/27 23:21:44 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/test/test_queries.cxx,v 1.7 2007/07/28 01:22:11 jrb Exp $
 
 // Exercise query routines
 
@@ -481,8 +481,8 @@ int main(int nargs, char**)    {
 
   std::vector<unsigned> pkeys;
   unsigned voteKey;
-  unsigned minKey = 15;
-  unsigned maxKey = 210;
+  unsigned minKey = 1;
+  unsigned maxKey = 18;
   for (voteKey = minKey; voteKey < maxKey; voteKey++) {
     bool isUpToDate = q.getVoteParameters(voteKey, pkeys);
     if (isUpToDate) {
