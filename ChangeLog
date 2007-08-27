@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Mon Aug 27 12:54:54 PDT 2007
+mootCore/src/test
+
+Modified Files:
+	test_queries.cxx 
+Log Message:
+Exercise new service MootQuery::getParmsFromMaster
+
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Aug 27 12:54:42 PDT 2007
 mootCore/src
 
