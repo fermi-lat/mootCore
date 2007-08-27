@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Mon Aug 27 12:54:42 PDT 2007
+mootCore/src
+
+Modified Files:
+	MootQuery.cxx py_mootCore.in 
+Log Message:
+Add service MootQuery::getParmsFromMaster
+
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Aug 27 12:54:19 PDT 2007
 mootCore/mootCore
 
