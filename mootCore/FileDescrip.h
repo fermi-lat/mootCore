@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/FileDescrip.h,v 1.1.1.1 2006/11/21 01:18:04 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/FileDescrip.h,v 1.2 2007/05/17 00:25:50 jrb Exp $
 
 #ifndef MOOT_FileDescrip_h
 #define MOOT_FileDescrip_h
@@ -216,7 +216,35 @@ namespace MOOT {
     std::string m_status;
   };             // end ParmInfo
 
+  /**
+    @class ParmOffline
+     
+    Information about parameter files of interest to Offline
+  */
+  class ParmOffline {
+  public:
+    ParmOffline(const std::string& key="", const std::string& pclass="", 
+                const std::string& classFk="", const std::string& src="", 
+                const std::string& srcFmt="", const std::string& status="") :
+      m_key(key), m_class(pclass), m_classFk(classFk),
+      m_src(src), m_srcFmt(srcFmt), m_status(status) {}
 
+    std::string getKey() const {return m_key;}
+    std::string getClass() const {return m_class;}
+    std::string getClassFk() const {return m_classFk;}
+    std::string getSrc() const {return m_src;}
+    std::string getSrcFmt() const {return m_srcFmt;}
+    std::string getStatus() const {return m_status;}
+
+  private:
+    std::string m_key;
+    std::string m_class;
+    std::string m_classFk;
+    std::string m_src;
+    std::string m_srcFmt;
+    std::string m_status;
+
+  };      // end ParmOffline
   /**
         @class voteAliasInfo
   */
