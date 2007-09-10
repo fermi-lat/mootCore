@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Mon Sep 10 12:09:28 PDT 2007
+mootCore/src/test
+
+Modified Files:
+	test_queries.cxx 
+Log Message:
+Test enhanced MootQuery::getParmClasses.
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Sep 10 12:09:01 PDT 2007
 mootCore/src
 
