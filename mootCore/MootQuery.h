@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/MootQuery.h,v 1.13 2007/08/03 21:33:57 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/MootQuery.h,v 1.14 2007/08/27 19:54:19 jrb Exp $
 // Handles registering a single file into Parameters table.  
 // Might also handle other parts of building a config; TBD.
 #ifndef MOOT_MootQuery_h
@@ -210,7 +210,8 @@ namespace MOOT {
 
 
     /// Fill supplied argument with parameter class names. Return count
-    unsigned getParmClasses(std::vector<std::string>& names);
+    unsigned getParmClasses(std::vector<std::string>& names, 
+                            const std::string& precinct="*");
 
     /// Given fmx logical id for a latc master, look up associated
     /// parameter files (latc source) and return a little structure

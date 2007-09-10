@@ -1,4 +1,4 @@
-//  $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/MootQuery.cxx,v 1.18 2007/08/03 21:34:33 jrb Exp $
+//  $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/MootQuery.cxx,v 1.19 2007/08/27 19:54:42 jrb Exp $
 
 #include <string>
 #include <cstdio>
@@ -745,9 +745,19 @@ namespace MOOT {
   unsigned MootQuery::getParameterClasses(std::vector<std::string>& names) {
     return getParmClasses(names);
   }
-  unsigned MootQuery::getParmClasses(std::vector<std::string>& names) {
-    int nRet = DbUtil::getAllWhere(m_rdb, "Parameter_class", "name",
-                                   "", names);
+  unsigned MootQuery::getParmClasses(std::vector<std::string>& names,
+                                     const std::string& precinct) {
+    int nRet;
+    if (precinct == std::string("*")) {
+      nRet = DbUtil::getAllWhere(m_rdb, "Parameter_class", "name",
+                                 "", names);
+    }
+    else {
+      std::string where(" WHERE precinct_fk = (select precinct_key from Precincts where name='");
+      where += precinct + std::string("')");
+      nRet = DbUtil::getAllWhere(m_rdb, "Parameter_class", "name", where,
+                                 names);
+    }
     return nRet;
   }
 
