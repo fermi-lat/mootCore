@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Mon Sep 10 12:08:52 PDT 2007
+mootCore/mootCore
+
+Modified Files:
+	MootQuery.h 
+Log Message:
+Add optional arg. to getParmClasses, allowing cut by precinct name
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r6, operation: add
 Package: mootCore
