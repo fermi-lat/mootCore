@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/test/test_queries.cxx,v 1.8 2007/08/03 21:34:55 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/test/test_queries.cxx,v 1.9 2007/08/27 19:54:54 jrb Exp $
 
 // Exercise query routines
 
@@ -479,6 +479,19 @@ int main(int nargs, char**)    {
     if ((ix % 3) == 2) std::cout << std::endl;
   }
   std::cout << std::endl;
+
+  names.clear();
+  std::string prec("ACD_Mode");
+  q.getParmClasses(names, prec);
+
+  std::cout << names.size() << " parm classes names belonging to precinct '"
+            << prec <<  "' found.  They are:" << std::endl;
+  for (unsigned ix = 0; ix < names.size(); ix++) {
+    std::cout << names[ix] << " ";
+    if ((ix % 3) == 2) std::cout << std::endl;
+  }
+  std::cout << std::endl;
+
 
   std::vector<unsigned> pkeys;
   unsigned voteKey;
