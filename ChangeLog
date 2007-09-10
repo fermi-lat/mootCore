@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Mon Sep 10 12:09:01 PDT 2007
+mootCore/src
+
+Modified Files:
+	MootQuery.cxx py_mootCore.in 
+Log Message:
+Add optional arg. to getParmClasses, allowing cut by precinct name
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Sep 10 12:08:52 PDT 2007
 mootCore/mootCore
 
