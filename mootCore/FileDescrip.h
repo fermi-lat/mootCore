@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/FileDescrip.h,v 1.2 2007/05/17 00:25:50 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/FileDescrip.h,v 1.3 2007/08/27 19:54:19 jrb Exp $
 
 #ifndef MOOT_FileDescrip_h
 #define MOOT_FileDescrip_h
@@ -289,7 +289,8 @@ namespace MOOT {
              const std::string& src="", const std::string& ts="", 
              const std::string& creator="",
              const std::string& descrip="", const std::string& status="") :
-      m_key(key), m_precinct(precinct), m_precinctFk(precinct), m_instr(instr),
+      m_key(key), m_precinct(precinct), m_precinctFk(precinctFk), 
+      m_instr(instr),
       m_src(src), m_ts(ts), m_creator(creator),
       m_descrip(descrip), m_status(status)  {};
     std::string getKey() const {return m_key;}
