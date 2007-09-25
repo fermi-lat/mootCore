@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Tue Sep 25 15:31:21 PDT 2007
+mootCore/src
+
+Modified Files:
+	MoodConnection.cxx 
+Log Message:
+Use commonUtilities to get xml path for the package instead of a
+private env. variable
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Sep 25 15:30:47 PDT 2007
 mootCore/cmt
 
