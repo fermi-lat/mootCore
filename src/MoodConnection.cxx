@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/users/jrb/MOOT/src/MoodConnection.cxx,v 1.15 2006/07/13 18:59:27 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/MoodConnection.cxx,v 1.1.1.1 2006/11/21 01:18:04 jrb Exp $
 
 #include <string>
 #include <cstdio>
@@ -20,6 +20,7 @@
 #include "xmlBase/XmlParser.h"
 #include "xmlBase/Dom.h"
 #include "facilities/Util.h"
+#include "facilities/commonUtilities.h"
 #include <xercesc/dom/DOMDocument.hpp>
 #include <xercesc/dom/DOMElement.hpp>
 
@@ -155,8 +156,11 @@ namespace MOOT {
     // directory holding xml file and schema. Then full path of
     // xml file that expandEnvVar expects should be string 
     //  "$(MOOT_XML)/" + dbname + ".xml"
-    std::string dbSchema("$(MOOT_XML)/");
-    dbSchema += dbname + ".xml";
+    //    std::string dbSchema("$(MOOT_XML)/");
+
+    // Use Navid's new stuff instead. All we need is our own xml dir.
+    std::string dbSchema = facilities::commonUtilities::getXmlPath("mootCore");
+    dbSchema += std::string("/") + dbname + ".xml";
 
     // expandEnvVar throws Untranslatable exception if 
     try {
