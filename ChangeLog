@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: panetta  Tue Sep 25 11:44:10 PDT 2007
+mootCore/maint
+
+Modified Files:
+	createVotes.sql 
+Log Message:
+Improper use of apostrophe inside comment...
+    *
+------------------------------------------------------------
 User: panetta  Tue Sep 25 11:43:34 PDT 2007
 mootCore/maint
 
