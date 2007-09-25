@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: panetta  Tue Sep 25 11:42:58 PDT 2007
+mootCore/maint
+
+Modified Files:
+	dropMOOD.sql 
+Log Message:
+Add all drop statements and reorder for dependency management
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r6p2, operation: add
 Package: mootCore
