@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue Sep 25 15:30:47 PDT 2007
+mootCore/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Don't set MOOT_XML environment variable here; use commonUtilities instead
+
+    *
+------------------------------------------------------------
 User: panetta  Tue Sep 25 11:47:43 PDT 2007
 mootCore/xml
 
