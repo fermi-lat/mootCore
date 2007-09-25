@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: panetta  Tue Sep 25 11:43:34 PDT 2007
+mootCore/maint
+
+Modified Files:
+	createMOOD.sql 
+Log Message:
+add createLATC_Backup, fix file name
+    *
+------------------------------------------------------------
 User: panetta  Tue Sep 25 11:42:58 PDT 2007
 mootCore/maint
 
