@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed Sep 26 15:13:21 PDT 2007
+mootCore/src
+
+Modified Files:
+	MootSys.cxx 
+Log Message:
+Use correct macro for #ifndef
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Sep 26 15:11:25 PDT 2007
 mootCore/src
 
