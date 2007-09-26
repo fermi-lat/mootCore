@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/MoodConnection.cxx,v 1.1.1.1 2006/11/21 01:18:04 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/MoodConnection.cxx,v 1.2 2007/09/25 22:31:21 jrb Exp $
 
 #include <string>
 #include <cstdio>
@@ -7,7 +7,6 @@
 #include <fstream>
 #include <stdexcept>
 #include "mootCore/MoodConnection.h"
-#include "mootCore/MootSys.h"
 #include "rdbModel/Db/Connection.h"
 #include "rdbModel/Db/MysqlConnection.h"
 #include "rdbModel/Db/ResultHandle.h"
