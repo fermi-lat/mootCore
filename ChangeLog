@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed Sep 26 12:23:34 PDT 2007
+mootCore/src
+
+Modified Files:
+	MootQuery.cxx 
+Log Message:
+Need explicit include of <algorithm>
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r7, operation: add
 Package: mootCore
