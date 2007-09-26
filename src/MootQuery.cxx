@@ -1,9 +1,10 @@
-//  $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/MootQuery.cxx,v 1.19 2007/08/27 19:54:42 jrb Exp $
+//  $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/MootQuery.cxx,v 1.20 2007/09/10 19:09:00 jrb Exp $
 
 #include <string>
 #include <cstdio>
 #include <iostream>
 #include <stdexcept>
+#include <algorithm>
 #include "mootCore/MootQuery.h"
 #include "mootCore/MoodConnection.h"
 #include "mootCore/DbUtil.h"
