@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Wed Sep 26 15:11:25 PDT 2007
+mootCore/src
+
+Modified Files:
+	MoodConnection.cxx MootSys.cxx 
+Log Message:
+MoodConnection.cxx: eliminate unnecessary #include
+MootSys.cxx:   Segregate unix-specific code with #ifndef _WIN32
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Sep 26 12:25:49 PDT 2007
 mootCore/cmt
 
