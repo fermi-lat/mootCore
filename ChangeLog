@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Sep 28 15:25:54 PDT 2007
+mootCore/src
+
+Modified Files:
+	MoodConnection.cxx MootQuery.cxx 
+Log Message:
+Clean up.  Eliminate old, commented-out stuff
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Sep 28 15:07:23 PDT 2007
 mootCore/src
 
