@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/MoodConnection.cxx,v 1.2 2007/09/25 22:31:21 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/MoodConnection.cxx,v 1.3 2007/09/26 22:11:25 jrb Exp $
 
 #include <string>
 #include <cstdio>
@@ -103,6 +103,7 @@ namespace MOOT {
 
   bool MoodConnection::open(const char* host, int port, 
                             std::string& dbname, bool wrt) {
+    using facilities::commonUtilities;
     static char* acct = "glastreader";
     // If wrt is true, expect to get user, password from .my.cnf
     // Else use glastreader
@@ -157,9 +158,19 @@ namespace MOOT {
     //  "$(MOOT_XML)/" + dbname + ".xml"
     //    std::string dbSchema("$(MOOT_XML)/");
 
-    // Use Navid's new stuff instead. All we need is our own xml dir.
-    std::string dbSchema = facilities::commonUtilities::getXmlPath("mootCore");
-    dbSchema += std::string("/") + dbname + ".xml";
+    // Use Navid's new stuff instead. 
+    // If MOOT_XML has a value, use it.  Otherwise, all we need is our 
+    // own xml dir.
+    std::string dbSchema = commonUtilities::getEnvironment("MOOT_XML");
+    if (dbSchema.size() == 0) {
+      dbSchema = commonUtilities::getXmlPath("mootCore");
+    }
+#ifdef WIN32
+    std::string slash("\\");  // need to escape properly
+#else
+    std::string slash("/");    
+#endif
+    dbSchema += slash + dbname + ".xml";
 
     // expandEnvVar throws Untranslatable exception if 
     try {
