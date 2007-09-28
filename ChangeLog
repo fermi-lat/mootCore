@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Fri Sep 28 15:07:23 PDT 2007
+mootCore/src
+
+Modified Files:
+	MoodConnection.cxx MootQuery.cxx 
+Log Message:
+MoodConnection: Look first for env. def. of MOOT_XML.  If not found, use
+                own xml subdirectory.
+MootQuery: Bug fix for resolveVoteAliases and resolveAncAliases
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Sep 28 11:12:24 PDT 2007
 mootCore/src
 
