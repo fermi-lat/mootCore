@@ -1,11 +1,11 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/users/jrb/MOOT/MOOT/DbUtilException.h,v 1.1 2006/08/19 00:20:16 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/DbUtilException.h,v 1.1.1.1 2006/11/21 01:18:04 jrb Exp $
 #ifndef MOOT_DBUTILEXCEPTION_H
 #define MOOT_DBUTILEXCEPTION_H
 #include <exception>
 
 namespace MOOT {
 
-  class DbUtilException : std::exception {
+  class DbUtilException : public std::exception {
   public:
     DbUtilException(const std::string& extraInfo = "", int code=0) : 
       std::exception(),
@@ -23,6 +23,24 @@ namespace MOOT {
   private:
     std::string m_extra;
     int         m_code;
+  };
+
+  class DbUtilNoDataException : public DbUtilException {
+  public:
+    DbUtilNoDataException(const std::string& extraInfo = "", int code=0) : 
+      DbUtilException(extraInfo, code)  { 
+      m_name = std::string("DbUtilNoDataException");
+    }
+    virtual ~DbUtilNoDataException() throw()  {}
+  };
+
+  class DbUtilNotUniqueException : public DbUtilException {
+  public:
+    DbUtilNotUniqueException(const std::string& extraInfo = "", int code=0) : 
+      DbUtilException(extraInfo, code) {
+      m_name = std::string("DbUtilNotUniqueException");
+    }
+    virtual ~DbUtilNotUniqueException() throw() {}
   };
 
 }
