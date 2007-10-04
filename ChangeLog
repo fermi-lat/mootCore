@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: panetta  Thu Oct  4 13:59:28 PDT 2007
+mootCore/xml
+
+Modified Files:
+	intent.xsd 
+Log Message:
+add minOccurs=0 to trc_config element def
+    *
+------------------------------------------------------------
 User: panetta  Wed Oct  3 17:23:46 PDT 2007
 mootCore/xml
 
