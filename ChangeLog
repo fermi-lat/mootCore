@@ -1,4 +1,20 @@
 ------------------------------------------------------------
+User: panetta  Wed Oct  3 17:23:46 PDT 2007
+mootCore/xml
+
+Modified Files:
+	intent.xsd 
+Log Message:
+Added trcGroup xs:attributeGroup
+Added TKR_tack to TKR_iterableName 
+Changed CAL_LACCalib from emptyBaseType to ancFileType
+Fleshed out TKR_Mode-constants 
+Moved TRG_GEM-vote and TRG-ROI_vote to the front of the xs:sequence in 
+  LPA_INTENT to follow true usage
+
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r7p3, operation: add
 Package: mootCore
