@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        dbs="mood"
        SchemaVersion="2.0"
-       CVSid= "$Id: mood_test.xml,v 1.22 2007/05/10 21:20:00 jrb Exp $"   >
+       CVSid= "$Id: mood.xml,v 1.9 2007/07/02 19:46:08 jrb Exp $"   >
 
   <table name="Configs"
      comment="Describe configuration instances for MOOT" version="v1r11" >
@@ -63,8 +63,7 @@
          (name, alg, step, instr) as preferred (or not)
         </comment>
     </col>
-<!--   This column is in the dbs, but unused by code.  No need to
-        make it accessible
+
     <col name="vote_fk" >
       <src null="true" >
         <from agent="enduser" />
@@ -77,7 +76,7 @@
       <fk tableName="Votes" keyCol="vote_key" />
       <comment>Refers to row in Votes describing intent of this Config</comment>
     </col>
--->
+
     <col name="mode" >
       <src null="false">
         <from agent="enduser" />
