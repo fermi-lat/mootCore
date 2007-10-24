@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed Oct 24 16:04:42 PDT 2007
+mootCore/xml
+
+Modified Files:
+	mood.xml mood_user.xml 
+Log Message:
+Make Configs.vote_fk accessible to code for prod and user db's as well as test
+
+    *
+------------------------------------------------------------
 User: panetta  Thu Oct  4 13:59:28 PDT 2007
 mootCore/xml
 
