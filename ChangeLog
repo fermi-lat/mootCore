@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Oct 25 14:35:17 PDT 2007
+mootCore/src
+
+Modified Files:
+	MootQuery.cxx 
+Log Message:
+Refactor slightly in support of MOOT::buildFromVote
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Oct 25 14:35:05 PDT 2007
 mootCore/mootCore
 
