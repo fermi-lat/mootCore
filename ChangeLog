@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu Oct 25 14:35:05 PDT 2007
+mootCore/mootCore
+
+Modified Files:
+	FileDescrip.h MootQuery.h 
+Log Message:
+Filedescrip.h:  add clear() function
+MootQuery.h: Refactor slightly in support of MOOT::buildFromVote
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Oct 24 16:04:42 PDT 2007
 mootCore/xml
 
