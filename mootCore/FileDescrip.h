@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/FileDescrip.h,v 1.3 2007/08/27 19:54:19 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/FileDescrip.h,v 1.4 2007/09/21 19:19:20 jrb Exp $
 
 #ifndef MOOT_FileDescrip_h
 #define MOOT_FileDescrip_h
@@ -109,6 +109,10 @@ namespace MOOT {
     std::string getKey() const {return m_key;}
     std::string getMode() const {return m_mode;}
     std::string getCreationTime() const {return m_creationTime;}
+    void clear() {
+      m_key = m_name = m_alg = m_step = m_descrip = m_status = m_active 
+        = m_mode = m_creationTime = std::string("");
+    }
   private:
     std::string m_key;
     std::string m_name;
