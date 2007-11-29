@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/MootQuery.h,v 1.15 2007/09/10 19:08:51 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/MootQuery.h,v 1.16 2007/10/25 21:35:05 jrb Exp $
 // Handles registering a single file into Parameters table.  
 // Might also handle other parts of building a config; TBD.
 #ifndef MOOT_MootQuery_h
@@ -67,9 +67,18 @@ namespace MOOT {
      */
     AncInfo* getAncInfo(unsigned key);
 
-    // **TODO**
-
-
+    /**
+       Return keys of ancillary files which were input to parameter entries 
+       supplied when config was created.
+     */
+    bool getConfigAncsRequest(unsigned configKey,
+                              std::vector<unsigned>& ancKeys);
+   /**
+      Return keys of ancillary files which were input to parameter entries
+      which were in turn input for binaries belonging to the config.
+   */
+    bool getConfigAncsUsed(unsigned configKey,
+                           std::vector<unsigned>& ancKeys);
     /**
        Given a config key, return associated list of fmx relative
        file paths.  Such a file path is what fmx upload expects
@@ -171,6 +180,7 @@ namespace MOOT {
      */
     bool getConfigParmsRequest(unsigned configKey, 
                                std::vector<unsigned>& parameterKeys);
+
     /**
        Return keys of parameter entries used to build FSW inputs
        for this config
