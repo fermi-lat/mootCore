@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu Nov 29 14:17:16 PST 2007
+mootCore/mootCore
+
+Modified Files:
+	DbUtil.h MootQuery.h 
+Log Message:
+MootQuery.h : add getConfigAncsUsed, getConfigAncsRequest
+DbUtil.h :    improve comments
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r8, operation: add
 Package: mootCore
