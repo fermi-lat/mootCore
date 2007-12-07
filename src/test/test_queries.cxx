@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/test/test_queries.cxx,v 1.9 2007/08/27 19:54:54 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/test/test_queries.cxx,v 1.10 2007/09/10 19:09:27 jrb Exp $
 
 // Exercise query routines
 
@@ -284,6 +284,7 @@ int main(int nargs, char**)    {
   }
   std::cout << std::endl;
 
+  */
   std::vector<MOOT::ConfigInfo> cInfo;
 
   unsigned nConfigs = q.getConfigInfo(cInfo);
@@ -307,7 +308,7 @@ int main(int nargs, char**)    {
   nConfigs = q.getConfigInfo(cInfo, "STARTED", "");  
  
   std::cout << "Found " << nConfigs << " with status = STARTED" << std::endl;
-  */
+  
   // Exercise getConfigsRequested, getConfigsUsed
   /*
   std::vector<unsigned> parmKeys;
@@ -542,7 +543,8 @@ void writeInfo(MOOT::ConfigInfo* pInfo, std::ostream& out) {
   out << "Status = " << pInfo->getStatus() << std::endl;
   out << "active_state = " << pInfo->getActive() << std::endl;
   out << "Mode = " << pInfo->getMode() << std::endl;
-  out << "Creation time = " << pInfo->getCreationTime() 
+  out << "Creation time = " << pInfo->getCreationTime() << std::endl;
+  out << "Vote key = '" << pInfo->getVoteKey() << "'" 
             << std::endl << std::endl;
 }
 
