@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/MootQuery.h,v 1.16 2007/10/25 21:35:05 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/MootQuery.h,v 1.17 2007/11/29 22:17:16 jrb Exp $
 // Handles registering a single file into Parameters table.  
 // Might also handle other parts of building a config; TBD.
 #ifndef MOOT_MootQuery_h
@@ -66,6 +66,13 @@ namespace MOOT {
          to filled structure.  Caller is responsible for deleting.
      */
     AncInfo* getAncInfo(unsigned key);
+
+    /** Return list of keys of anc. files associated with one or more
+        of the input parameter file keys.  Return count (may include
+        duplicates).
+     */
+    unsigned getAncsFromParms(const std::vector<unsigned>& parms,
+                              std::vector<unsigned>& ancs);
 
     /**
        Return keys of ancillary files which were input to parameter entries 
