@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed Dec 19 15:46:59 PST 2007
+mootCore/xml
+
+Modified Files:
+	init-mood_test.xml 
+Log Message:
+Make latc ignore official, with its own precinct, etc.
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Dec 19 11:33:55 PST 2007
 mootCore/src
 
