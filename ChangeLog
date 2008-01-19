@@ -1,4 +1,18 @@
 ------------------------------------------------------------
+User: jrb  Fri Jan 18 16:56:35 PST 2008
+mootCore/maint
+
+Modified Files:
+	createConfigs.sql createMOOD.sql 
+Added Files:
+	createAcq_mode.sql createAcq_summary.sql 
+Log Message:
+New scripts to create tables for history (Acq_summary, Acq_mode)
+Add invocations to createMOOD
+Add new column to Configs for verify state (unused for now)
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r9, operation: add
 Package: mootCore
