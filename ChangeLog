@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Jan 18 16:57:20 PST 2008
+mootCore/xml
+
+Modified Files:
+	mood_test.xml 
+Log Message:
+Add descriptions for new tables Acq_summary, Acq_mode
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Jan 18 16:56:35 PST 2008
 mootCore/maint
 
