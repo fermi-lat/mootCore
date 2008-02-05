@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: panetta  Tue Feb  5 01:21:16 PST 2008
+mootCore/xml
+
+Modified Files:
+	init-mood_test.xml 
+Log Message:
+use Eric's names for latc_ignore precinct (fewer code changes for Jim...)
+    *
+------------------------------------------------------------
 User: panetta  Tue Feb  5 01:20:10 PST 2008
 mootCore/maint
 
