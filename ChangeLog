@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Feb  7 14:15:11 PST 2008
+mootCore/src
+
+Modified Files:
+	DbUtil.cxx 
+Log Message:
+Use rdbModel::Rdb::updateRows rather than Connection::update
+
+    *
+------------------------------------------------------------
 User: panetta  Tue Feb  5 22:02:03 PST 2008
 mootCore/xml
 
