@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Feb  7 15:33:08 PST 2008
+mootCore/xml
+
+Added Files:
+	intent_v2r7p0.xsd 
+Log Message:
+Add ignore precinct; other lesser changes from intent_v2r6p0.xsd
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Feb  7 14:15:11 PST 2008
 mootCore/src
 
