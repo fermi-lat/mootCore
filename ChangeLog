@@ -1,5 +1,88 @@
 ------------------------------------------------------------
 TAG
+Tag name: mootCore-01-10-00, operation: add
+Package: mootCore
+User: glastrm  Thu Feb  7 16:01:24 2008
+Files:
+  mootCore/.cvsignore  1.1.1.1
+  mootCore/ChangeLog  1.197
+  mootCore/cmt/.cvsignore  1.1.1.1
+  mootCore/cmt/requirements  1.19
+  mootCore/doc/release.notes  1.17
+  mootCore/maint/createPClass_to_AClass.sql  1.1.1.1
+  mootCore/maint/createHistory.sql  1.1.1.1
+  mootCore/maint/createParameters_to_Ancillary.sql  1.1.1.1
+  mootCore/maint/createLATC_Backup.sql  1.3
+  mootCore/maint/createOffline_to_Ancillary.sql  1.1.1.1
+  mootCore/maint/createOffline_class.sql  1.1.1.1
+  mootCore/maint/createAncillary.sql  1.5
+  mootCore/maint/createParameter_class.sql  1.3
+  mootCore/maint/createAcq_mode.sql  1.1
+  mootCore/maint/dropMOOD.sql  1.3
+  mootCore/maint/createOClass_to_AClass.sql  1.1.1.1
+  mootCore/maint/createSubdetector.sql  1.1.1.1
+  mootCore/maint/createOfflineCalib.sql  1.1.1.1
+  mootCore/maint/createConfigs.sql  1.4
+  mootCore/maint/createParameters.sql  1.3
+  mootCore/maint/createConditions.sql  1.1.1.1
+  mootCore/maint/createAncillary_class.sql  1.2
+  mootCore/maint/createInstrument.sql  1.1.1.1
+  mootCore/maint/createFSW_class.sql  1.1.1.1
+  mootCore/maint/createPrecincts.sql  1.3
+  mootCore/maint/createAcq_summary.sql  1.1
+  mootCore/maint/createConfigs_to_Parameters.sql  1.1
+  mootCore/maint/createConfigs_to_FSW.sql  1.1.1.1
+  mootCore/maint/createFSW_to_Parameters.sql  1.2
+  mootCore/maint/createMOOD.sql  1.9
+  mootCore/maint/createAncillary_aliases.sql  1.2
+  mootCore/maint/createDelegates.sql  1.1.1.1
+  mootCore/maint/createContainer_Precinct.sql  1.1
+  mootCore/maint/createVote_aliases.sql  1.2
+  mootCore/maint/createVotes.sql  1.8
+  mootCore/maint/.cvsignore  1.1.1.1
+  mootCore/maint/createFClass_to_PClass.sql  1.2
+  mootCore/maint/createVote_PClass_AClass.sql  1.3
+  mootCore/maint/createFSW_inputs.sql  1.1.1.1
+  mootCore/maint/staticDump.sh  1.1.1.1
+  mootCore/maint/dropAllButClass.sql  1.1.1.1
+  mootCore/mootCore/FileDescrip.h  1.6
+  mootCore/mootCore/DbUtilException.h  1.2
+  mootCore/mootCore/DbUtil.h  1.5
+  mootCore/mootCore/MootSys.h  1.1.1.1
+  mootCore/mootCore/MootQuery.h  1.18
+  mootCore/mootCore/MoodConnection.h  1.1.1.1
+  mootCore/python/__init__.py  1.1.1.1
+  mootCore/src/MoodConnection.cxx  1.5
+  mootCore/src/mainpage.h  1.1.1.1
+  mootCore/src/MootSys.cxx  1.3
+  mootCore/src/DbUtil.cxx  1.5
+  mootCore/src/MootQuery.cxx  1.29
+  mootCore/src/py_mootCore.in  1.9
+  mootCore/src/test/testdiffer.cxx  1.1.1.1
+  mootCore/src/test/testpopen.cxx  1.1.1.1
+  mootCore/src/test/test_queries.cxx  1.11
+  mootCore/src/test/test_mootSys.cxx  1.1.1.1
+  mootCore/src/test/test_connect.cxx  1.1.1.1
+  mootCore/xml/intent_v2r7p0.xsd  1.1
+  mootCore/xml/init-mood_user.xml  1.2
+  mootCore/xml/intent_v2r6p0.xsd  1.1
+  mootCore/xml/intent.xsd  1.17
+  mootCore/xml/myHost-mirror.xml  1.1.1.1
+  mootCore/xml/mood_user.xml  1.10
+  mootCore/xml/intent_v1r0p0.xsd  1.1
+  mootCore/xml/intent_example.xml  1.3
+  mootCore/xml/mood.xml  1.10
+  mootCore/xml/intent_v2r5p0.xsd  1.1
+  mootCore/xml/mood_test.xml  1.23
+  mootCore/xml/myHost.xml  1.1.1.1
+  mootCore/xml/connection.xsd  1.1.1.1
+  mootCore/xml/init-mood.xml  1.2
+  mootCore/xml/init-mood_test.xml  1.20
+  mootCore/xml/intent_v2r0p0.xsd  1.4
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: v1r10, operation: add
 Package: mootCore
 User: jrb  Thu Feb  7 15:56:46 2008
