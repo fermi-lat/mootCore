@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/DbUtil.cxx,v 1.4 2007/10/02 00:08:36 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/DbUtil.cxx,v 1.5 2008/02/07 22:15:11 jrb Exp $
 
 #include <cstdio>
 // #include <cstdlib>
@@ -216,7 +216,7 @@ namespace MOOT {
     using rdbModel::Row;
 
     std::vector<FieldVal> fields;
-    fields.push_back(FieldVal(colName, value, ""));
+    fields.push_back(FieldVal(colName, value));
     Row row(fields);
     return rdb->updateRows(table, row, where);
   }
