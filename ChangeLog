@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Mon Feb 11 15:38:13 PST 2008
+mootCore/src
+
+Modified Files:
+	DbUtil.cxx 
+Log Message:
+Bug fix in DbUtil::setColumnValue
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: mootCore-01-10-00, operation: add
 Package: mootCore
