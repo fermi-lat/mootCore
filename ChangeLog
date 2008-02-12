@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: panetta  Tue Feb 12 14:36:44 PST 2008
+mootCore/xml
+
+Modified Files:
+	init-mood_test.xml intent_v2r7p0.xsd 
+Log Message:
+Add latc_DFT_TRG_GEM precinct
+    *
+------------------------------------------------------------
 User: jrb  Mon Feb 11 15:38:13 PST 2008
 mootCore/src
 
