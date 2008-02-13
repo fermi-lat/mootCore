@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: panetta  Tue Feb 12 17:08:51 PST 2008
+mootCore/src
+
+Modified Files:
+	MoodConnection.cxx 
+Log Message:
+Close and delete database connection when MoodConnection closes.
+    *
+------------------------------------------------------------
 User: panetta  Tue Feb 12 14:36:44 PST 2008
 mootCore/xml
 
