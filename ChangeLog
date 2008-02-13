@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: panetta  Tue Feb 12 18:16:12 PST 2008
+mootCore/mootCore
+
+Modified Files:
+	FileDescrip.h 
+Log Message:
+Add accessor for 'verify_state' to ConfigInfo, and fill it
+    *
+------------------------------------------------------------
 User: panetta  Tue Feb 12 17:08:51 PST 2008
 mootCore/src
 
