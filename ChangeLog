@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: panetta  Wed Feb 13 13:02:34 PST 2008
+mootCore/src
+
+Modified Files:
+	MootQuery.cxx 
+Log Message:
+Add accessor for 'verify_state' to ConfigInfo, and fill it
+    *
+------------------------------------------------------------
 User: jrb  Wed Feb 13 12:33:06 PST 2008
 mootCore/xml
 
