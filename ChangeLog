@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed Feb 13 12:33:06 PST 2008
+mootCore/xml
+
+Modified Files:
+	intent.xsd 
+Log Message:
+intent.xsd should be at least as up to date as most recent versioned xsd
+
+    *
+------------------------------------------------------------
 User: panetta  Tue Feb 12 18:16:12 PST 2008
 mootCore/mootCore
 
