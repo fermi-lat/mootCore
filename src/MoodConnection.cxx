@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/MoodConnection.cxx,v 1.4 2007/09/28 22:07:23 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/MoodConnection.cxx,v 1.5 2007/09/28 22:25:54 jrb Exp $
 
 #include <string>
 #include <cstdio>
@@ -97,8 +97,13 @@ namespace MOOT {
   }
 
   void MoodConnection::close() {
-    delete m_rdb;
-    m_rdb = 0;
+    if (m_rdb) {
+      rdbModel::Connection* conn = m_rdb->getConnection();
+      conn->close();
+      delete conn;
+      delete m_rdb;
+      m_rdb = 0;
+    }
   }
 
   bool MoodConnection::open(const char* host, int port, 
