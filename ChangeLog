@@ -1,4 +1,19 @@
 ------------------------------------------------------------
+User: jrb  Thu Feb 14 17:16:34 PST 2008
+mootCore/xml
+
+Modified Files:
+	init-mood.xml init-mood_user.xml intent.xsd mood.xml 
+	mood_test.xml mood_user.xml 
+Log Message:
+init-*.xml : add new parameter classes latc_IGN_GNL_Ignore, latc_DFT_TRG_GEM
+            and make other associated changes
+
+mood*.xml : add description of column Configs.verify_state
+intent.xsd : comment out mention of obsolete ancillary classes
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: mootCore-01-11-00, operation: add
 Package: mootCore
