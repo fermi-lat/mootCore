@@ -1,4 +1,4 @@
-# $Header: /nfs/slac/g/glast/ground/cvs/users/jrb/MOOT/maint/createOfflineCalib.sql,v 1.5 2006/07/03 18:35:32 jrb Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/mootCore/maint/createOfflineCalib.sql,v 1.1.1.1 2006/11/21 01:18:04 jrb Exp $
 # File for creating metadata table for calibration
 # This (or any other) script may be run from within mysql 
 #     mysql>  source createOfflineCalib.sql
@@ -22,6 +22,10 @@ COMMENT 'start of validity interval; how set depends on value of config in class
    status                 ENUM('STARTED', 'ABORT', 'CREATED', 'INVALID')
                             NOT NULL DEFAULT 'STARTED'
 COMMENT 'refers to status of entry, in case file has to be copied',
+
+   inspect_state VARCHAR(32) NOT NULL DEFAULT 'NOT_INSPECTED' 
+ COMMENT 'typical values are NOT_INSPECTED, PASSED, FAILED..',
+
    completion ENUM('OK','INC', 'ABORT') not null,
    locale      varchar(30) not null default 'orbit',
    input_desc  varchar(255),
