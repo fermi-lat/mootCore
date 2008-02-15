@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Thu Feb 14 17:33:27 PST 2008
+mootCore/maint
+
+Modified Files:
+	createAncillary.sql createAncillary_class.sql 
+	createFSW_class.sql createOfflineCalib.sql 
+	createOffline_class.sql createParameters.sql 
+Log Message:
+Add columns inspect_state or active_state to each table
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Feb 14 17:16:34 PST 2008
 mootCore/xml
 
