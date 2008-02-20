@@ -1,6 +1,6 @@
 package mootCore
 
-# $Header: /nfs/slac/g/glast/ground/cvs/mootCore/cmt/requirements,v 1.19 2008/02/07 23:55:35 jrb Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/mootCore/cmt/requirements,v 1.20 2008/02/15 01:45:24 jrb Exp $
 
 version v1r12
 
@@ -24,9 +24,12 @@ use SwigPolicy v*
 ## set MOOT_XML  $(MOOTCOREROOT)/xml
 
 ## Another environment variable that should be set somewhere else someday
+## Doubly test (mood_test, served by glastDB)
 ## set MOOT_ARCHIVE /afs/slac/g/glast/moot/srcArchive-test/
 ## To  use 'real' test archive - the one resident on glastlnx06,
 ## use alternate def. of MOOT_ARCHIVE below
+## set MOOT_ARCHIVE /afs/slac/g/glast/moot/archive-mood_test
+## For real production, use
 set MOOT_ARCHIVE /afs/slac/g/glast/moot/archive-mood
 
 private 
