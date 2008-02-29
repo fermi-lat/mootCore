@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: jrb  Thu Feb 28 23:07:23 PST 2008
+mootCore/maint
+
+Modified Files:
+	createAcq_mode.sql 
+Added Files:
+	createConstituents.sql 
+Log Message:
+createConstituents.sql: New table for filter config, etc.
+createAcq_mode.sql: trivial changes to comments
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Feb 19 16:49:36 PST 2008
 mootCore/cmt
 
