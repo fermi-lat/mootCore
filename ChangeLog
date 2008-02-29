@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu Feb 28 23:08:38 PST 2008
+mootCore/xml
+
+Modified Files:
+	init-mood_test.xml mood_test.xml 
+Log Message:
+mood_test.xml  Add description of Constituents table
+init-mood_test.xml Add a couple more entries to FSW_class (cdm, sbsResolved)
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Feb 28 23:07:23 PST 2008
 mootCore/maint
 
