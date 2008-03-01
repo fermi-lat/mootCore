@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        dbs="mood_test"
        SchemaVersion="2.0"
-       CVSid= "$Id: mood_test.xml,v 1.24 2008/02/15 01:16:34 jrb Exp $"   >
+       CVSid= "$Id: mood_test.xml,v 1.25 2008/02/29 07:08:38 jrb Exp $"   >
 
   <table name="Configs"
      comment="Describe configuration instances for MOOT" version="v1r11" >
@@ -3082,14 +3082,6 @@ version="v1r0" >
       </src>
       <type typename="varchar" size="255" />
       <comment>fsw constituent name </comment>
-    </col>
-
-    <col name="fmx_path" >
-      <src null="false" >
-        <from agent="enduser" />   
-      </src>
-      <type typename="text" />
-      <comment>File path relative to fmx archive root</comment>
     </col>
 
     <col name="FSW_fk" >
