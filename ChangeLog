@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: jrb  Fri Feb 29 19:11:35 PST 2008
+mootCore/maint
+
+Modified Files:
+	createConstituents.sql createFSW_inputs.sql createMOOD.sql 
+	dropMOOD.sql 
+Log Message:
+createFSW_inputs.sql:  change fmx_path to type TEXT
+createConstituents.sql: get rid of fmx_path; already covered by FSW_inputs
+createMOOD.sql, dropMOOD.sql:  include Constituents
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Feb 28 23:08:38 PST 2008
 mootCore/xml
 
