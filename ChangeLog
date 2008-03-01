@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Feb 29 19:12:35 PST 2008
+mootCore/xml
+
+Modified Files:
+	mood_test.xml 
+Log Message:
+Eliminate fmx_path field from Constituents table
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Feb 29 19:11:35 PST 2008
 mootCore/maint
 
