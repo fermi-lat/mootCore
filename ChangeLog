@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed Mar  5 11:40:10 PST 2008
+mootCore/maint
+
+Modified Files:
+	createFSW_inputs.sql 
+Log Message:
+Text columns can't have a default value
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Feb 29 19:12:35 PST 2008
 mootCore/xml
 
