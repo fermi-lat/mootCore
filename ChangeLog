@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed Mar 12 17:36:01 PDT 2008
+mootCore/xml
+
+Modified Files:
+	mood.xml mood_user.xml 
+Log Message:
+Add description of Acq_summary table for mood_user and mood databases
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Mar  5 11:40:10 PST 2008
 mootCore/maint
 
