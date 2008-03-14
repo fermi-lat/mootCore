@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Thu Mar 13 19:11:07 PDT 2008
+mootCore/xml
+
+Modified Files:
+	init-mood.xml init-mood_test.xml init-mood_user.xml 
+	mood_test.xml 
+Log Message:
+Add Constituents and SBS_to_Constituents table descriptions to mood_test.xml
+Add new FSW_class sbsResolved to all init files
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: mootCore-01-12-01, operation: add
 Package: mootCore
