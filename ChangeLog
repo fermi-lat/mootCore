@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Mar 14 08:58:42 PDT 2008
+mootCore/maint
+
+Modified Files:
+	.cvsignore 
+Log Message:
+Neaten up output of cvs update
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Mar 14 08:58:21 PDT 2008
 mootCore/xml
 
