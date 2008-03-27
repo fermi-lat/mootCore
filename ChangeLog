@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 User: jrb  Thu Mar 27 16:48:38 PDT 2008
+mootCore/src/test
+
+Modified Files:
+	test_queries.cxx 
+Log Message:
+FileDescrip: Add ConstitInfo class 
+MootQuery:   Add routines to ask for constituent information
+test_queries: Test new queries
+
+    *
+------------------------------------------------------------
+User: jrb  Thu Mar 27 16:48:38 PDT 2008
 mootCore/src
 
 Modified Files:
