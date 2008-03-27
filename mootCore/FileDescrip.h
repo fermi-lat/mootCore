@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/FileDescrip.h,v 1.6 2007/12/07 20:02:44 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/FileDescrip.h,v 1.7 2008/02/13 02:16:12 panetta Exp $
 
 #ifndef MOOT_FileDescrip_h
 #define MOOT_FileDescrip_h
@@ -131,6 +131,48 @@ namespace MOOT {
     std::string m_creationTime;
     std::string m_voteKey;
   };                                 // end ConfigInfo
+
+  /** @class ConstitInfo
+        Information concerning flight software constituents    
+   */
+  class ConstitInfo {
+  public:
+    ConstitInfo(const std::string& key = std::string(""),
+                const std::string& name = std::string(""),
+                const std::string& version = std::string(""),
+                const std::string& pkg = std::string(""),
+                const std::string& dir = std::string(""),
+                const std::string& fmxPath = std::string(""),
+                const std::string& srcPath = std::string(""),
+                const std::string& fswId = std::string(""),
+                const std::string& status = std::string("")) :
+      m_key(key), m_name(name), m_version(version), m_pkg(pkg), m_dir(dir), 
+      m_fmxPath(fmxPath), m_srcPath(srcPath), m_fswId(fswId), m_status(status)
+    {};
+    void clear() {
+      m_key = m_name = m_version = m_pkg = m_dir = m_fmxPath = m_srcPath
+        = m_fswId = m_status = std::string("");
+    }
+    std::string getKey() const {return m_key;}
+    std::string getName() const {return m_name;}
+    std::string getVersion() const {return m_version;}
+    std::string getPkg() const {return m_pkg;}
+    std::string getDir() const {return m_dir;}
+    std::string getFmxPath() const {return m_fmxPath;}
+    std::string getSrcPath() const {return m_srcPath;}
+    std::string getFswId() const {return m_fswId;}
+    std::string getStatus() const {return m_status;}
+  private:
+    std::string m_key;
+    std::string m_name;
+    std::string m_version;
+    std::string m_pkg;
+    std::string m_dir;
+    std::string m_fmxPath;
+    std::string m_srcPath;
+    std::string m_fswId;
+    std::string m_status;
+  };
 
   /**
     Little utility class used by MootBuild and MootQuery.
