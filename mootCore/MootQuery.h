@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/MootQuery.h,v 1.17 2007/11/29 22:17:16 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/MootQuery.h,v 1.18 2007/12/19 19:33:45 jrb Exp $
 // Handles registering a single file into Parameters table.  
 // Might also handle other parts of building a config; TBD.
 #ifndef MOOT_MootQuery_h
@@ -195,6 +195,10 @@ namespace MOOT {
     bool getConfigParmsUsed(unsigned configKey, 
                             std::vector<unsigned>& parameterKeys);
 
+    ConstitInfo* getConstituentInfo(unsigned constitKey);
+
+    ConstitInfo* getConstituentByFswId(unsigned fswId);
+
 
     unsigned getLastConfigKeyByAlg(const std::string& alg, unsigned step=1,
                                    const std::string& status="CREATED",
@@ -339,6 +343,11 @@ namespace MOOT {
     unsigned getVoteParmViaClassKey(const std::string& voteKeyStr,
                                     const std::string& parameterClassKey);
     */
+
+    /**
+       Utility does the work for getConstituentInfo and getConstituentByFswId
+     */
+    ConstitInfo* getConstituentWhere(const std::string& where);
 
 
     // Get info about each parameter file which was input source for the
