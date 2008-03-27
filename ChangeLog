@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Thu Mar 27 16:48:37 PDT 2008
+mootCore/mootCore
+
+Modified Files:
+	FileDescrip.h MootQuery.h 
+Log Message:
+FileDescrip: Add ConstitInfo class 
+MootQuery:   Add routines to ask for constituent information
+test_queries: Test new queries
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: mootCore-01-13-00, operation: add
 Package: mootCore
