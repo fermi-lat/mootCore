@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu Apr 10 12:41:34 PDT 2008
+mootCore/maint
+
+Modified Files:
+	createConfigs.sql createConstituents.sql 
+Log Message:
+Add sbs_key column to Configs
+Add schema_id, version_id and instance_id to Constituents
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: mootCore-01-14-00, operation: add
 Package: mootCore
