@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Apr 10 13:40:42 PDT 2008
+mootCore/mootCore
+
+Modified Files:
+	FileDescrip.h 
+Log Message:
+take account of new fields in Constituents table
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Apr 10 12:42:10 PDT 2008
 mootCore/xml
 
