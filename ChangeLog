@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Apr 10 13:41:17 PDT 2008
+mootCore/src/test
+
+Modified Files:
+	test_queries.cxx 
+Log Message:
+Take account of new fields in Constituents table
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Apr 10 13:41:11 PDT 2008
 mootCore/src
 
