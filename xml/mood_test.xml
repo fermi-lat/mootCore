@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        dbs="mood_test"
        SchemaVersion="2.0"
-       CVSid= "$Id: mood_test.xml,v 1.26 2008/03/01 03:12:35 jrb Exp $"   >
+       CVSid= "$Id: mood_test.xml,v 1.27 2008/03/14 02:11:07 jrb Exp $"   >
 
   <table name="Configs"
      comment="Describe configuration instances for MOOT" version="v1r11" >
@@ -91,6 +91,19 @@
       </type>
       <fk tableName="Votes" keyCol="vote_key" />
       <comment>Refers to row in Votes describing intent of this Config</comment>
+    </col>
+   
+    <col name="sbs_key" >
+      <src null="false">
+        <default value="0" />
+      </src>
+      <type typename="int" unsigned = "true" >
+        <restriction>
+          <nonnegative />
+        </restriction>
+      </type>
+      <comment> fmx logical id of sbs (resolved) associated with this config
+      </comment>
     </col>
 
     <col name="mode" >
@@ -3122,6 +3135,31 @@ version="v1r0" >
       <comment>Describes where file handed to fmx goes, relative to root
       </comment>
     </col>
+
+    <col name="schema_id">
+      <src null="true" >
+        <from agent="enduser" />
+      </src>
+      <type typename="smallint" />
+      <comment>schema id from cdm header</comment>
+    </col>
+
+    <col name="instance_id">
+      <src null="true" >
+        <from agent="enduser" />
+      </src>
+      <type typename="smallint" />
+      <comment>instance id from cdm header</comment>
+    </col>
+
+    <col name="version_id">
+      <src null="true" >
+        <from agent="enduser" />
+      </src>
+      <type typename="smallint" />
+      <comment>version id from cdm header</comment>
+    </col>
+
 
     <col name="status" >
       <src null="false" >
