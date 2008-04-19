@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Fri Apr 18 18:03:06 PDT 2008
+mootCore/mootCore
+
+Modified Files:
+	FileDescrip.h MootQuery.h 
+Log Message:
+Fix up naming in ConstitInfo class
+Add routines to get constituent info by sbs key
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Apr 18 17:26:28 PDT 2008
 mootCore/maint
 
