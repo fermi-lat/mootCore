@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Apr 18 18:03:49 PDT 2008
+mootCore/src
+
+Modified Files:
+	MootQuery.cxx py_mootCore.in 
+Log Message:
+Add new routines to get constituent info by sbs key, fsw package 
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Apr 18 18:03:06 PDT 2008
 mootCore/mootCore
 
