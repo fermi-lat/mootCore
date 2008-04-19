@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Apr 18 18:03:58 PDT 2008
+mootCore/src/test
+
+Modified Files:
+	test_queries.cxx 
+Log Message:
+Test new routines to get constituent info by sbs key, fsw package 
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Apr 18 18:03:49 PDT 2008
 mootCore/src
 
