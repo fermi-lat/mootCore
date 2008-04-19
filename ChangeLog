@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Apr 18 17:26:28 PDT 2008
+mootCore/maint
+
+Modified Files:
+	createConstituents.sql 
+Log Message:
+better column comment for version_id field
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Apr 10 13:41:17 PDT 2008
 mootCore/src/test
 
