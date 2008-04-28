@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Mon Apr 28 11:25:33 PDT 2008
+mootCore/mootCore
+
+Modified Files:
+	MootQuery.h 
+Log Message:
+MootQuery:  start implementing Eric Charles' query requests
+DbUtil: eliminate commented-out code
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: mootCore-01-15-00, operation: add
 Package: mootCore
