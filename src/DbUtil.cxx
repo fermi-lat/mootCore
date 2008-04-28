@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/DbUtil.cxx,v 1.5 2008/02/07 22:15:11 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/DbUtil.cxx,v 1.6 2008/02/11 23:38:13 jrb Exp $
 
 #include <cstdio>
 // #include <cstdlib>
@@ -92,8 +92,6 @@ namespace MOOT {
     if (!connected(rdb))  {
       throw rdbModel::RdbException("DbUtil::getColumnValue: bad connection");
     }
-
-      // return std::string("");
 
     std::string myWhere(where);
     rdbModel::StringVector getCols;
