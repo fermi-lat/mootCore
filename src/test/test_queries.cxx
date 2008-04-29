@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/test/test_queries.cxx,v 1.13 2008/04/10 20:41:17 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/test/test_queries.cxx,v 1.14 2008/04/19 01:03:58 jrb Exp $
 
 // Exercise query routines
 
@@ -165,7 +165,8 @@ int main(int /* nargs */, char**)    {
   */
 
   std::vector<unsigned> keys;
-  /*
+  // was commented out
+  /* and is again
   std::string cname("secondConfig");
 
   std::string algname("emptyAlg");
@@ -284,8 +285,8 @@ int main(int /* nargs */, char**)    {
     std::cout << keys[i] << " ";
   }
   std::cout << std::endl;
-
   */
+  // end of "was commented out" section
   std::vector<MOOT::ConfigInfo> cInfo;
 
   unsigned nConfigs = q.getConfigInfo(cInfo);
@@ -533,6 +534,7 @@ int main(int /* nargs */, char**)    {
     }
   } while (!done) ;
 
+  /*   Not supported on prod. dbs yet
   MOOT::ConstitInfo* byKey = 
     q.getConstituentInfo(75);
   writeConstituent(byKey, std::cout);
@@ -548,6 +550,37 @@ int main(int /* nargs */, char**)    {
     for (unsigned ix = 0; ix < lpa.size(); ix++) 
       writeConstituent(&(lpa[ix]), std::cout);
   }
+  */
+  // Test out new utilities Eric requested
+  //   getConfigsForAlias
+  std::set<unsigned> keySet;
+
+  bool ok = q.getConfigsForAlias("CAL_FLE", "100MeV", keySet);
+  std::cout << "getConfigsForAlias(CAL_FLE, 100MeV..) found " <<
+    keySet.size() << " configs" << std::endl << std::endl;
+
+  keySet.clear();
+  //   getConfigsForAncillary
+  unsigned ancKey=29;
+  ok = q.getConfigsForAncillary(ancKey, keySet);
+  std::cout << "getConfigsForAncillary(26..) found " <<
+    keySet.size() << " configs" << std::endl << std::endl;
+
+  keySet.clear();
+  //   getConfigsForVote
+  voteKey=100;
+  ok = q.getConfigsForVote(voteKey, keySet);
+  std::cout << "getConfigsForVote(100..) found " <<
+    keySet.size() << " configs" << std::endl << std::endl;
+  
+
+  //   getVotesForPrecinct
+  std::vector<MOOT::VoteInfo> vInfo;
+  ok = q.getVotesForPrecinct("CAL_Mode", vInfo);
+  std::cout << "getVotesForPrecint(CAL_Mode..) found " << vInfo.size()
+            << " votes " << std::endl;
+
+
   return 0;
 }
 void writeInfo(MOOT::ConfigInfo* pInfo, std::ostream& out) {
