@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue Apr 29 16:46:50 PDT 2008
+mootCore/src
+
+Modified Files:
+	MootQuery.cxx 
+Log Message:
+Implement new query routines requested by Eric C.
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Apr 29 16:46:46 PDT 2008
 mootCore/mootCore
 
