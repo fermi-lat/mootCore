@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue Apr 29 16:46:59 PDT 2008
+mootCore/src/test
+
+Modified Files:
+	test_queries.cxx 
+Log Message:
+Test new query routines requested by Eric C.
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Apr 29 16:46:50 PDT 2008
 mootCore/src
 
