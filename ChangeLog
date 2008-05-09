@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r17, operation: add
+Package: mootCore
+User: jrb  Thu May  8 17:44:29 2008
+Files:
+  mootCore/.cvsignore  1.1.1.1
+  mootCore/ChangeLog  1.267
+  mootCore/cmt/.cvsignore  1.2
+  mootCore/cmt/requirements  1.28
+  mootCore/doc/release.notes  1.24
+
+    *
+------------------------------------------------------------
 User: jrb  Thu May  8 17:44:21 PDT 2008
 mootCore/doc
 
