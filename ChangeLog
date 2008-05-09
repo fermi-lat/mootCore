@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Thu May  8 17:37:00 PDT 2008
+mootCore/xml
+
+Modified Files:
+	init-mood.xml init-mood_test.xml init-mood_user.xml mood.xml 
+	mood_user.xml 
+Log Message:
+Add stuff needed for fsw constituent handling to db descriptions, now
+that it exists in all instances of moot-type databases
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: mootCore-01-16-00, operation: add
 Package: mootCore
