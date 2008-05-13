@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/MootQuery.h,v 1.21 2008/04/28 18:25:33 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/MootQuery.h,v 1.22 2008/04/29 23:46:46 jrb Exp $
 // Handles registering a single file into Parameters table.  
 // Might also handle other parts of building a config; TBD.
 #ifndef MOOT_MootQuery_h
@@ -223,6 +223,16 @@ namespace MOOT {
     ConstitInfo* getConstituentInfo(unsigned constitKey);
 
     ConstitInfo* getConstituentByFswId(unsigned fswId);
+
+    /**
+      Return info for all constituents associated with the 
+      supplied @a sbsFmxExportKey. If @a schemaId is non-negative,
+      only return info for constituents with that value for schema_id.
+      @return  count of constituents satisfying constraints
+    */
+    unsigned getConstituentInfoBySbs(unsigned sbsFmxExportKey, 
+                                     std::vector<ConstitInfo>& info,
+                                     int schemaId=-1);
 
 
     unsigned getLastConfigKeyByAlg(const std::string& alg, unsigned step=1,
