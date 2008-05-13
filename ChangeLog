@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue May 13 16:11:10 PDT 2008
+mootCore/src/test
+
+Modified Files:
+	test_queries.cxx 
+Log Message:
+Exercise  MootQuery::getConstituentsBySbs
+
+    *
+------------------------------------------------------------
 User: jrb  Tue May 13 16:11:00 PDT 2008
 mootCore/src
 
