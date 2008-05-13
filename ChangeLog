@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue May 13 16:10:30 PDT 2008
+mootCore/mootCore
+
+Modified Files:
+	FileDescrip.h MootQuery.h 
+Log Message:
+Add getContituentsBySbs query; add sbs key to ConfigInfo
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: mootCore-01-17-00, operation: add
 Package: mootCore
