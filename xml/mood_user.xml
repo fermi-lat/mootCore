@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        dbs="mood_user"
        SchemaVersion="2.0"
-       CVSid= "$Id: mood_user.xml,v 1.12 2008/03/13 00:36:01 jrb Exp $"   >
+       CVSid= "$Id: mood_user.xml,v 1.13 2008/05/09 00:36:59 jrb Exp $"   >
 
   <table name="Configs"
      comment="Describe configuration instances for MOOT" version="v1r11" >
@@ -3068,7 +3068,7 @@ version="v1r0" >
       <src null="true" >
         <from agent="enduser" />
       </src>
-      <type typename="smallint" />
+      <type typename="smallint" unsigned="true"/>
       <comment>schema id from cdm header</comment>
     </col>
 
@@ -3076,7 +3076,7 @@ version="v1r0" >
       <src null="true" >
         <from agent="enduser" />
       </src>
-      <type typename="smallint" />
+      <type typename="smallint" unsigned="true"/>
       <comment>instance id from cdm header</comment>
     </col>
 
@@ -3084,7 +3084,7 @@ version="v1r0" >
       <src null="true" >
         <from agent="enduser" />
       </src>
-      <type typename="smallint" />
+      <type typename="smallint" unsigned="true"/>
       <comment>version id from cdm header</comment>
     </col>
 
