@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed May 14 16:27:38 PDT 2008
+mootCore/xml
+
+Modified Files:
+	mood.xml mood_test.xml mood_user.xml 
+Log Message:
+Compatible with altered definition of Constituents table
+
+    *
+------------------------------------------------------------
 User: jrb  Wed May 14 15:36:38 PDT 2008
 mootCore/xml
 
