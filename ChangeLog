@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed May 14 15:36:38 PDT 2008
+mootCore/xml
+
+Modified Files:
+	init-mood.xml init-mood_test.xml init-mood_user.xml 
+Log Message:
+Add new parameter class, ancillary class for Filter
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: mootCore-01-18-00, operation: add
 Package: mootCore
