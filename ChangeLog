@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed May 14 16:28:10 PDT 2008
+mootCore/maint
+
+Modified Files:
+	createConstituents.sql 
+Log Message:
+Make instance_id, schema_id, version_id unsigned
+
+    *
+------------------------------------------------------------
 User: jrb  Wed May 14 16:27:38 PDT 2008
 mootCore/xml
 
