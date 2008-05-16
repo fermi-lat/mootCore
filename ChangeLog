@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Thu May 15 20:37:37 PDT 2008
+mootCore/xml
+
+Modified Files:
+	intent.xsd 
+Added Files:
+	intent_v2r8p0.xsd 
+Log Message:
+Add stuff for Filter_Associate vote
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: mootCore-01-19-00, operation: add
 Package: mootCore
