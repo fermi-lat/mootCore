@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu May 15 22:23:08 PDT 2008
+mootCore/xml
+
+Modified Files:
+	init-mood_test.xml 
+Log Message:
+Need entry in FClass_to_PClass for fsw_FSW_Filter_Associate (use "none" FClass)
+
+    *
+------------------------------------------------------------
 User: jrb  Thu May 15 20:37:37 PDT 2008
 mootCore/xml
 
