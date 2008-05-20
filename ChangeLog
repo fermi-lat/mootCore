@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: panetta  Tue May 20 10:59:25 PDT 2008
+mootCore/xml
+
+Modified Files:
+	intent.xsd intent_v2r8p0.xsd 
+Log Message:
+Expand Filter_Associate-registers tag to allow Vote control of the association
+    *
+------------------------------------------------------------
 User: jrb  Mon May 19 10:36:35 PDT 2008
 mootCore/xml
 
