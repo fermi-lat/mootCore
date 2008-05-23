@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/MootQuery.h,v 1.23 2008/05/13 23:10:29 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/MootQuery.h,v 1.24 2008/05/22 21:31:07 jrb Exp $
 // Handles registering a single file into Parameters table.  
 // Might also handle other parts of building a config; TBD.
 #ifndef MOOT_MootQuery_h
@@ -34,6 +34,10 @@ namespace rdbModel {
   class Connection;
 }
 
+namespace facilities {
+  class Timestamp;
+}
+
 typedef std::vector<std::string> VectorOfString;
 namespace MOOT {
   class MoodConnection;
@@ -51,6 +55,10 @@ namespace MOOT {
     LPA_MODE_count,
     LPA_MODE_ALL = 0x8000 
   };
+
+  // assigned by MOC.  This is default for getAcqSummaryInfo.
+  // For MBR use 80
+  const int FLIGHT_SCID = 77; 
 
   class MootQuery   {
   public:
@@ -78,12 +86,33 @@ namespace MOOT {
       return classStr("FSW_class", key);
     }
 
+    /** Store everything of interest about this row in Acq_summary
+        table in AcqSummaryInfo structure.
+        @return 0 if no row exists with this key;  otherwise ptr
+         to filled structure.  Caller is responsible for deleting.
+     */
+    AcqSummaryInfo* getAcqSummaryInfoByKey(unsigned key);
+
+    /**
+       (scid, startedAt) is another way to uniquely identify an acquisition
+     */
+    AcqSummaryInfo* getAcqSummaryInfo(unsigned startedAt, 
+                                      unsigned scid=FLIGHT_SCID);
+
+    /**
+       Find acqu summary specified by an event time and scid
+     */
+    AcqSummaryInfo* getAcqSummaryInfo(const facilities::Timestamp& eventTime,
+                                      unsigned scid=FLIGHT_SCID);
+
+
     /** Store everything of interest about this row in AncillaryAlias
         table in AncAliasInfo structure.
         @return 0 if no row exists with this key;  otherwise ptr
          to filled structure.  Caller is responsible for deleting.
      */
     AncAliasInfo* getAncAliasInfo(unsigned key);
+
 
     /**
        Return ConstitInfo objects for all active filters in specified
@@ -453,6 +482,10 @@ namespace MOOT {
 #endif
                          DOMElement* modeElt);
 
+    /**
+       Does work for public routines of this name
+     */
+    AcqSummaryInfo* getAcqSummaryWhere(const std::string& where);
 
     /**
        Utility does the work for getConstituentInfo and getConstituentByFswId
