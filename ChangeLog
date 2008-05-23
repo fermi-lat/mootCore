@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri May 23 12:40:58 PDT 2008
+mootCore/src
+
+Modified Files:
+	MootQuery.cxx 
+Log Message:
+New queries for Acq_summary table
+
+    *
+------------------------------------------------------------
 User: jrb  Fri May 23 12:40:10 PDT 2008
 mootCore/mootCore
 
