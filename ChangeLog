@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri May 23 12:40:10 PDT 2008
+mootCore/mootCore
+
+Modified Files:
+	FileDescrip.h MootQuery.h 
+Log Message:
+Define info structure and queries for Acq_summary table
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: mootCore-01-21-00, operation: add
 Package: mootCore
