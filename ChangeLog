@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Sat May 24 16:22:39 PDT 2008
+mootCore/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Include new src file in compile
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: mootCore-01-22-00, operation: add
 Package: mootCore
