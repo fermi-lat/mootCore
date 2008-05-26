@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Mon May 26 13:57:08 PDT 2008
+mootCore/src
+
+Modified Files:
+	MootQuery.cxx 
+Log Message:
+Bug fix to probably-usused routine
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: mootCore-01-22-01, operation: add
 Package: mootCore
