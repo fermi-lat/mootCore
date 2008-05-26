@@ -1,4 +1,4 @@
-//  $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/MootQuery.cxx,v 1.36 2008/05/13 23:11:00 jrb Exp $
+//  $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/MootQuery.cxx,v 1.37 2008/05/23 19:40:58 jrb Exp $
 
 #include <string>
 #include <cstdio>
@@ -1801,7 +1801,7 @@ namespace MOOT {
   bool MootQuery::voteExists(unsigned voteKey, bool goodStatus) {
     std::string voteKeyStr;
     facilities::Util::utoa(voteKey, voteKeyStr);
-    return voteExists(voteKey, goodStatus);
+    return voteExists(voteKeyStr, goodStatus);
   }
 
   bool MootQuery::voteExists(const std::string& voteKeyStr, bool goodStatus) {
