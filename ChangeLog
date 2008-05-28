@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue May 27 17:35:32 PDT 2008
+mootCore/src
+
+Modified Files:
+	MootQuery.cxx 
+Log Message:
+Add a new query (getMasterKey) and test it
+
+    *
+------------------------------------------------------------
 User: jrb  Tue May 27 17:35:31 PDT 2008
 mootCore/mootCore
 
