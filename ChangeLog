@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Tue May 27 23:20:47 PDT 2008
+mootCore/mootCore
+
+Modified Files:
+	FileDescrip.h 
+Log Message:
+Don't expose complicated AcqSummaryInfo constructor to SWIG; not needed
+from python and doesn't compile on Windows
+
+    *
+------------------------------------------------------------
 User: jrb  Tue May 27 17:35:32 PDT 2008
 mootCore/src/test
 
