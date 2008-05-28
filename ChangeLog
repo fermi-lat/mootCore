@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue May 27 17:35:31 PDT 2008
+mootCore/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Add a new query (getMasterKey) and test it
+
+    *
+------------------------------------------------------------
 User: jrb  Mon May 26 13:57:08 PDT 2008
 mootCore/src
 
