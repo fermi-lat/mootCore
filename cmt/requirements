@@ -1,6 +1,6 @@
 package mootCore
 
-# $Header: /nfs/slac/g/glast/ground/cvs/mootCore/cmt/requirements,v 1.34 2008/05/24 23:22:39 jrb Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/mootCore/cmt/requirements,v 1.35 2008/05/24 23:27:16 jrb Exp $
 
 version v1r22p1
 
@@ -29,8 +29,12 @@ use SwigPolicy v*
 ## To  use 'real' test archive - the one resident on glastlnx06,
 ## use alternate def. of MOOT_ARCHIVE below
 ## set MOOT_ARCHIVE /afs/slac/g/glast/moot/archive-mood_test
+##  For access to test archive from laptop
+## set MOOT_ARCHIVE /scratch/glastsoft/moot_test_glastDB
+
 ## For real production, use
 set MOOT_ARCHIVE /afs/slac/g/glast/moot/archive-mood
+
 
 private 
 

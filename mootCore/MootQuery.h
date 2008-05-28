@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/MootQuery.h,v 1.24 2008/05/22 21:31:07 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/mootCore/MootQuery.h,v 1.25 2008/05/23 19:40:10 jrb Exp $
 // Handles registering a single file into Parameters table.  
 // Might also handle other parts of building a config; TBD.
 #ifndef MOOT_MootQuery_h
@@ -342,6 +342,11 @@ namespace MOOT {
     bool getLpaConstituents(unsigned sbsKey, std::vector<ConstitInfo>& lpas);
 
 
+    /**
+       Get LATC master (i.e., fmx logical key for it) belonging to
+       @a configKey
+     */
+    unsigned getMasterKey(unsigned configKey);
     /** 
         Given SBS logical key, return constituent info for all
         constituents in the specified package

@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/test/test_queries.cxx,v 1.17 2008/05/22 21:31:46 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/test/test_queries.cxx,v 1.18 2008/05/23 19:41:21 jrb Exp $
 
 // Exercise query routines
 
@@ -662,6 +662,11 @@ int main(int /* nargs */, char**)    {
     writeAcqInfo(pAcqInfo, std::cout);
   }
   else std::cout << "No info for time 2008-1-27" << std::endl << std::endl;
+
+  unsigned configKey=138;
+  unsigned masterKey = q.getMasterKey(configKey);
+  std::cout << "For Config #" << configKey << " Retrieved master key "
+            << masterKey << std::endl;
 
   return 0;
 }
