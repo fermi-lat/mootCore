@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Jun 20 17:01:23 PDT 2008
+mootCore/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Set MOOT_ARCHIVE to special value * (meaning 'use default') 
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: mootCore-01-23-00, operation: add
 Package: mootCore
