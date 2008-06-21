@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Fri Jun 20 18:07:14 PDT 2008
+mootCore/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Get rid of setting of MOOT_ARCHIVE altogether.  Gleam users can use
+MootSvc.MootArchive jo; others should set env. variable themselves
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Jun 20 17:01:23 PDT 2008
 mootCore/cmt
 
