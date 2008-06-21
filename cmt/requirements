@@ -1,6 +1,6 @@
 package mootCore
 
-# $Header: /nfs/slac/g/glast/ground/cvs/mootCore/cmt/requirements,v 1.37 2008/05/28 06:21:58 jrb Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/mootCore/cmt/requirements,v 1.38 2008/06/21 00:01:22 jrb Exp $
 
 version v1r23
 
@@ -37,7 +37,7 @@ use SwigPolicy v*
 ## \\Slaccfs\afs_slac\g\glast\moot\archive-mood for Windows
 ## Other Gleam users should override by setting job option
 ## MootSvc.MootArchive
-set MOOT_ARCHIVE *
+## set MOOT_ARCHIVE *
 
 private 
 
