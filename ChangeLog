@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Mon Aug 18 11:49:44 PDT 2008
+mootCore/xml
+
+Modified Files:
+	init-mood_test.xml intent.xsd 
+Log Message:
+Add new ancillaries for ACD_Hld precinct
+
+    *
+------------------------------------------------------------
 User: ecephas  Fri Aug 15 14:42:39 PDT 2008
 GlastRelease-scons/mootCore
 
