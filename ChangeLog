@@ -1,4 +1,19 @@
 ------------------------------------------------------------
+User: ecephas  Mon Aug 25 13:58:10 PDT 2008
+GlastRelease-scons/mootCore
+
+Modified Files:
+	mootCoreLib.py 
+Log Message:
+changed 
+	library = 'mootCore' 
+to
+	library = ['mootCore']
+
+Added env.Tool('rdbModelLib')
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Aug 18 11:49:44 PDT 2008
 mootCore/xml
 
