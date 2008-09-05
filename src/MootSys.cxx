@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/MootSys.cxx,v 1.2 2007/09/26 22:11:25 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/MootSys.cxx,v 1.3 2007/09/26 22:13:21 jrb Exp $
 #include <cstdio>
 //#include <cstdlib>
 #include <iostream>
@@ -123,7 +123,9 @@ namespace MOOT {
 
     if (!(isDir(parent))) return false;
 
-    static mode_t mode = S_IRWXU;   // need only user permissions in afs space
+    // need only user permissions in afs space but for devel. on nfs
+    // give everyone read access
+    static mode_t mode = S_IRWXU | S_IRWXG | S_IRWXO;   
 
     int ret = mkdir(path.c_str(), mode);
     int errCode = errno;
