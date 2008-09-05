@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Sep  5 16:39:26 PDT 2008
+mootCore/src
+
+Modified Files:
+	MootSys.cxx 
+Log Message:
+Set umask for new directories to something nicer for nfs
+
+    *
+------------------------------------------------------------
 User: ecephas  Mon Aug 25 14:00:20 PDT 2008
 GlastRelease-scons/mootCore
 
