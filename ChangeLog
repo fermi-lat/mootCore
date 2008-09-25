@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: panetta  Thu Sep 25 16:39:51 PDT 2008
+mootCore/xml
+
+Modified Files:
+	init-mood.xml 
+Log Message:
+Add ACD HLD ancillaries
+    *
+------------------------------------------------------------
 TAG
 Tag name: mootCore-01-24-00, operation: add
 Package: mootCore
