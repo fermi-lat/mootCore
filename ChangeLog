@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r24, operation: mov
+Package: mootCore
+User: glastrm  Thu Sep 25 11:30:32 2008
+Files:
+  mootCore/SConscript  1.4
+
+    *
+------------------------------------------------------------
 User: glastrm  Thu Sep 25 11:30:26 PDT 2008
 mootCore
 
