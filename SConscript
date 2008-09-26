@@ -1,7 +1,7 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/mootCore/SConscript,v 1.3 2008/09/10 23:30:22 glastrm Exp $ 
+# $Header: /nfs/slac/g/glast/ground/cvs/mootCore/SConscript,v 1.4 2008/09/25 18:30:26 glastrm Exp $ 
 # Authors: Joanne Bogart <jrb@slac.stanford.edu>
-# Version: mootCore-01-24-00
+# Version: mootCore-01-24-01
 import os
 Import('baseEnv')
 Import('listFiles')
