@@ -1,7 +1,7 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/mootCore/SConscript,v 1.4 2008/09/25 18:30:26 glastrm Exp $ 
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/mootCore/SConscript,v 1.5 2008/09/26 00:30:48 glastrm Exp $ 
 # Authors: Joanne Bogart <jrb@slac.stanford.edu>
-# Version: mootCore-01-24-01
+# Version: mootCore-01-23-01
 import os
 Import('baseEnv')
 Import('listFiles')
@@ -21,3 +21,6 @@ test_queries = progEnv.Program('test_queries', ['src/test/test_queries.cxx'])
 
 progEnv.Tool('registerObjects', package = 'mootCore', libraries = [mootCore], testApps = [test_mootConnect, 
 	test_mootSys, test_queries], includes = listFiles(['mootCore/*.h']))
+
+
+
