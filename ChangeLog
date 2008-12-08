@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+TAG
+Tag name: mootCore-01-23-01, operation: add
+Package: mootCore
+User: ecephas  Mon Dec  8 13:40:46 2008
+Files:
+  mootCore/SConscript  1.6
+  mootCore/SConscript  1.6
+
+    *
+------------------------------------------------------------
 User: ecephas  Mon Dec  8 13:40:40 PST 2008
 GlastRelease-scons/mootCore
 
