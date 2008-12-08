@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: ecephas  Mon Dec  8 13:40:40 PST 2008
+GlastRelease-scons/mootCore
+
+Modified Files:
+	SConscript 
+Log Message:
+Check in SConscript for mootCore v1r23p1 (for branch-tag, GlastReleasev15r49) 
+    *
+------------------------------------------------------------
 TAG
 Tag name: mootCore-01-24-01, operation: add
 Package: mootCore
