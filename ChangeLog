@@ -2,6 +2,16 @@
 TAG
 Tag name: mootCore-01-23-01, operation: add
 Package: mootCore
+User: ecephas  Mon Dec  8 16:08:57 2008
+Files:
+  mootCore/mootCoreLib.py  1.2
+  mootCore/mootCoreLib.py  1.2
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: mootCore-01-23-01, operation: add
+Package: mootCore
 User: ecephas  Mon Dec  8 13:40:46 2008
 Files:
   mootCore/SConscript  1.6
