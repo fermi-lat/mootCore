@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Dec 11 12:41:57 PST 2008
+CHS-scons/mootCore/src
+
+Added Files:
+	py_mootCore.i 
+Log Message:
+Needed to build py_mootCore with SCons
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Dec 11 12:41:43 PST 2008
 CHS-scons/mootCore
 
