@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Dec 11 12:41:43 PST 2008
+CHS-scons/mootCore
+
+Modified Files:
+	SConscript 
+Log Message:
+Build py_mootCore if CHS environment
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: mootCore-01-23-01, operation: add
 Package: mootCore
