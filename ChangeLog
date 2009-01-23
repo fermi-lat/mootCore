@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Fri Jan 23 11:57:10 PST 2009
+CHS-scons/mootCore
+
+Modified Files:
+	mootCoreLib.py 
+Log Message:
+Add explicit references to xmlBaseLib, facilitiesLib since mootCore does
+directly use functions from these libraries
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: mootCore-01-23-01, operation: mov
 Package: mootCore
