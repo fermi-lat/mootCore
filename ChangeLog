@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+TAG
+Tag name: mootCore-01-23-01, operation: mov
+Package: mootCore
+User: glastrm  Thu Jan 22 16:31:57 2009
+Files:
+  mootCore/SConscript  1.8
+  mootCore/SConscript  1.8
+  mootCore/SConscript  1.8
+
+    *
+------------------------------------------------------------
 User: ecephas  Thu Jan 22 16:07:49 PST 2009
 GlastRelease-scons/mootCore
 
