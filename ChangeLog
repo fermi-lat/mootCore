@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+TAG
+Tag name: mootCore-01-24-02, operation: add
+Package: mootCore
+User: jrb  Wed May 20 16:13:23 2009
+Files:
+  mootCore/.cvsignore  1.1.1.1
+  mootCore/ChangeLog  1.372
+  mootCore/mootCoreLib.py  1.3
+  mootCore/SConscript  1.9
+
+    *
+------------------------------------------------------------
 User: jrb  Wed May 20 16:13:17 PDT 2009
 CHS-scons/mootCore/doc
 
