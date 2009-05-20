@@ -2,6 +2,15 @@
 TAG
 Tag name: mootCore-01-24-02, operation: add
 Package: mootCore
+User: jrb  Wed May 20 16:13:34 2009
+Files:
+  mootCore/doc/release.notes  1.36
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: mootCore-01-24-02, operation: add
+Package: mootCore
 User: jrb  Wed May 20 16:13:29 2009
 Files:
   mootCore/cmt/.cvsignore  1.2
