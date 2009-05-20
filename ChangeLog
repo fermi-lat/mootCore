@@ -2,6 +2,52 @@
 TAG
 Tag name: mootCore-01-24-02, operation: add
 Package: mootCore
+User: jrb  Wed May 20 16:13:40 2009
+Files:
+  mootCore/maint/createPClass_to_AClass.sql  1.1.1.1
+  mootCore/maint/createHistory.sql  1.1.1.1
+  mootCore/maint/createParameters_to_Ancillary.sql  1.1.1.1
+  mootCore/maint/createLATC_Backup.sql  1.3
+  mootCore/maint/createOffline_to_Ancillary.sql  1.1.1.1
+  mootCore/maint/createOffline_class.sql  1.2
+  mootCore/maint/createAncillary.sql  1.6
+  mootCore/maint/createParameter_class.sql  1.3
+  mootCore/maint/createAcq_mode.sql  1.2
+  mootCore/maint/dropMOOD.sql  1.5
+  mootCore/maint/createOClass_to_AClass.sql  1.1.1.1
+  mootCore/maint/createConstituents.sql  1.6
+  mootCore/maint/createSubdetector.sql  1.1.1.1
+  mootCore/maint/createOfflineCalib.sql  1.2
+  mootCore/maint/createConfigs.sql  1.5
+  mootCore/maint/createParameters.sql  1.4
+  mootCore/maint/createConditions.sql  1.1.1.1
+  mootCore/maint/createAncillary_class.sql  1.3
+  mootCore/maint/createSBS_to_Constituents.sql  1.2
+  mootCore/maint/createInstrument.sql  1.1.1.1
+  mootCore/maint/createFSW_class.sql  1.2
+  mootCore/maint/createPrecincts.sql  1.3
+  mootCore/maint/createAcq_summary.sql  1.1
+  mootCore/maint/createConfigs_to_Parameters.sql  1.1
+  mootCore/maint/createConfigs_to_FSW.sql  1.1.1.1
+  mootCore/maint/createFSW_to_Parameters.sql  1.2
+  mootCore/maint/createMOOD.sql  1.11
+  mootCore/maint/createAncillary_aliases.sql  1.2
+  mootCore/maint/createDelegates.sql  1.1.1.1
+  mootCore/maint/createContainer_Precinct.sql  1.1
+  mootCore/maint/createVote_aliases.sql  1.2
+  mootCore/maint/createVotes.sql  1.8
+  mootCore/maint/createFClass_to_PClass.sql  1.2
+  mootCore/maint/.cvsignore  1.2
+  mootCore/maint/createVote_PClass_AClass.sql  1.3
+  mootCore/maint/createFSW_inputs.sql  1.3
+  mootCore/maint/staticDump.sh  1.1.1.1
+  mootCore/maint/dropAllButClass.sql  1.1.1.1
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: mootCore-01-24-02, operation: add
+Package: mootCore
 User: jrb  Wed May 20 16:13:34 2009
 Files:
   mootCore/doc/release.notes  1.36
