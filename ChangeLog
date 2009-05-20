@@ -2,6 +2,33 @@
 TAG
 Tag name: mootCore-01-24-02, operation: add
 Package: mootCore
+User: jrb  Wed May 20 16:14:03 2009
+Files:
+  mootCore/xml/init-mood_user.xml  1.7
+  mootCore/xml/intent_v2r8p0.xsd  1.2
+  mootCore/xml/intent_v2r9p0.xsd  1.1
+  mootCore/xml/mood_user.xml  1.14
+  mootCore/xml/intent_v1r0p0.xsd  1.1
+  mootCore/xml/mood.xml  1.14
+  mootCore/xml/intent_v2r5p0.xsd  1.1
+  mootCore/xml/mood_test.xml  1.29
+  mootCore/xml/connection.xsd  1.1.1.1
+  mootCore/xml/intent_v2r0p0.xsd  1.4
+  mootCore/xml/intent_v2r7p0.xsd  1.2
+  mootCore/xml/intent.xsd  1.22
+  mootCore/xml/intent_v2r6p0.xsd  1.1
+  mootCore/xml/myHost-mirror.xml  1.1.1.1
+  mootCore/xml/intent_example.xml  1.3
+  mootCore/xml/.cvsignore  1.1
+  mootCore/xml/myHost.xml  1.1.1.1
+  mootCore/xml/init-mood_test.xml  1.27
+  mootCore/xml/init-mood.xml  1.8
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: mootCore-01-24-02, operation: add
+Package: mootCore
 User: jrb  Wed May 20 16:13:57 2009
 Files:
   mootCore/src/MoodConnection.cxx  1.6
