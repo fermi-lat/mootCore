@@ -2,6 +2,27 @@
 TAG
 Tag name: mootCore-01-24-02, operation: add
 Package: mootCore
+User: jrb  Wed May 20 16:13:57 2009
+Files:
+  mootCore/src/MoodConnection.cxx  1.6
+  mootCore/src/mainpage.h  1.1.1.1
+  mootCore/src/MootSys.cxx  1.4
+  mootCore/src/DbUtil.cxx  1.7
+  mootCore/src/py_mootCore.i  1.1
+  mootCore/src/MootQuery.cxx  1.41
+  mootCore/src/py_mootCore.in  1.13
+  mootCore/src/filterConfig.cxx  1.1
+  mootCore/src/test/testdiffer.cxx  1.1.1.1
+  mootCore/src/test/testpopen.cxx  1.1.1.1
+  mootCore/src/test/test_queries.cxx  1.19
+  mootCore/src/test/test_mootSys.cxx  1.1.1.1
+  mootCore/src/test/test_connect.cxx  1.1.1.1
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: mootCore-01-24-02, operation: add
+Package: mootCore
 User: jrb  Wed May 20 16:13:51 2009
 Files:
   mootCore/python/__init__.py  1.1.1.1
