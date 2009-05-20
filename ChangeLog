@@ -2,6 +2,16 @@
 TAG
 Tag name: mootCore-01-24-02, operation: add
 Package: mootCore
+User: jrb  Wed May 20 16:13:29 2009
+Files:
+  mootCore/cmt/.cvsignore  1.2
+  mootCore/cmt/requirements  1.43
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: mootCore-01-24-02, operation: add
+Package: mootCore
 User: jrb  Wed May 20 16:13:23 2009
 Files:
   mootCore/.cvsignore  1.1.1.1
