@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/CHS-scons/mootCore/SConscript,v 1.8 2009/01/23 00:07:49 ecephas Exp $ 
+# $Header: /nfs/slac/g/glast/ground/cvs/CHS-scons/mootCore/SConscript,v 1.9 2009/05/20 23:13:17 jrb Exp $ 
 # Authors: Joanne Bogart <jrb@slac.stanford.edu>
 # Version: mootCore-01-24-02
 import os
@@ -19,8 +19,11 @@ test_mootConnect = progEnv.Program('test_mootConnect', ['src/test/test_connect.c
 test_mootSys = progEnv.Program('test_mootSys', ['src/test/test_mootSys.cxx'])
 test_queries = progEnv.Program('test_queries', ['src/test/test_queries.cxx'])
 
-progEnv.Tool('registerObjects', package = 'mootCore', libraries = [mootCore], testApps = [test_mootConnect, 
-	test_mootSys, test_queries], includes = listFiles(['mootCore/*.h']))
+progEnv.Tool('registerTargets', package = 'mootCore',
+             libraryCxts = [[mootCore, libEnv]],
+             testAppCxts = [[test_mootConnect, progEnv], [test_mootSys,progEnv],
+                            [test_queries,progEnv]],
+             includes = listFiles(['mootCore/*.h']))
 
 
 
