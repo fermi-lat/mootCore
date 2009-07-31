@@ -2,6 +2,20 @@
 TAG
 Tag name: mootCore-01-24-03, operation: add
 Package: mootCore
+User: jrb  Thu Jul 30 17:44:01 2009
+Files:
+  mootCore/mootCore/FileDescrip.h  1.13
+  mootCore/mootCore/DbUtilException.h  1.2
+  mootCore/mootCore/DbUtil.h  1.5
+  mootCore/mootCore/MootSys.h  1.1.1.1
+  mootCore/mootCore/MootQuery.h  1.28
+  mootCore/mootCore/MoodConnection.h  1.1.1.1
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: mootCore-01-24-03, operation: add
+Package: mootCore
 User: jrb  Thu Jul 30 17:43:56 2009
 Files:
   mootCore/maint/createPClass_to_AClass.sql  1.1.1.1
