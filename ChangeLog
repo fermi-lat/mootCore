@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Jul 30 17:34:16 PDT 2009
+CHS-scons/mootCore
+
+Modified Files:
+	SConscript 
+Log Message:
+Switch to registerTargets
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: mootCore-01-24-02, operation: add
 Package: mootCore
