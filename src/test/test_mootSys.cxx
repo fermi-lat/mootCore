@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/users/jrb/MOOT/src/test/test_mootSys.cxx,v 1.9 2006/07/18 01:11:35 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/mootCore/src/test/test_mootSys.cxx,v 1.1.1.1 2006/11/21 01:18:04 jrb Exp $
 
 // Try out utilities in MootSys
 // from .my.cnf
@@ -8,7 +8,7 @@
 #include "mootCore/MootSys.h"
 
 
-int main(int nargs, char**)    {
+int main(int, char**)    {
 
   MOOT::MootSys  myUtil;
   std::string out;
@@ -99,8 +99,8 @@ int main(int nargs, char**)    {
   std::string master;
   std::string local;
   std::string cmdOut;
-  int cmdStatus;
   /*  Move to mootCore for meaningful response
+  int cmdStatus;
   ok = MOOT::MootSys::sysCmd("fmx show connection", cmdOut, cmdStatus);
   if (ok) {
     ok = MOOT::MootSys::getParmValue(cmdOut, std::string("Database"), dbtype);
