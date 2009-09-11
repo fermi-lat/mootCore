@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Thu Sep 10 18:22:31 PDT 2009
+GlastRelease-scons/mootCore
+
+Modified Files:
+	SConscript 
+Log Message:
+GoGui_auto-tag
+    *
+------------------------------------------------------------
 User: jrb  Thu Sep 10 18:21:41 PDT 2009
 GlastRelease-scons/mootCore/cmt
 
