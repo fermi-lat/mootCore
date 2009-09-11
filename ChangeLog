@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: jrb  Thu Sep 10 18:10:30 PDT 2009
+GlastRelease-scons/mootCore/src/test
+
+Modified Files:
+	test_connect.cxx test_mootSys.cxx 
+Log Message:
+Eliminate compiler warnings
+
+    *
+------------------------------------------------------------
+User: jrb  Thu Sep 10 18:10:30 PDT 2009
 GlastRelease-scons/mootCore/src
 
 Modified Files:
