@@ -2,6 +2,14 @@
 TAG
 Tag name: mootCore-01-24-04, operation: add
 Package: mootCore
+User: heather  Sat Sep 12 08:32:54 2009
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: mootCore-01-24-04, operation: add
+Package: mootCore
 User: jrb  Thu Sep 10 18:23:19 2009
 Files:
   mootCore/xml/init-mood_user.xml  1.7
