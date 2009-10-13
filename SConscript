@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/mootCore/SConscript,v 1.11 2009/07/31 00:43:33 jrb Exp $ 
+# $Header: /nfs/slac/g/glast/ground/cvs/CHS-scons/mootCore/SConscript,v 1.12 2009/09/11 01:22:31 jrb Exp $ 
 # Authors: Joanne Bogart <jrb@slac.stanford.edu>
 # Version: mootCore-01-24-04
 import os
@@ -23,7 +23,8 @@ progEnv.Tool('registerTargets', package = 'mootCore',
              libraryCxts = [[mootCore, libEnv]],
              testAppCxts = [[test_mootConnect, progEnv], [test_mootSys,progEnv],
                             [test_queries,progEnv]],
-             includes = listFiles(['mootCore/*.h']))
+             includes = listFiles(['mootCore/*.h']),
+             xml = listFiles(['xml/*'], recursive=True))
 
 
 
