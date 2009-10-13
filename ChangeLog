@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: panetta  Tue Oct 13 15:53:38 PDT 2009
+CHS-scons/mootCore
+
+Modified Files:
+	SConscript 
+Log Message:
+Add xml files to progEnv.Tool call
+    *
+------------------------------------------------------------
 TAG
 Tag name: mootCore-01-24-04, operation: add
 Package: mootCore
