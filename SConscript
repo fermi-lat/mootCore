@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/CHS-scons/mootCore/SConscript,v 1.13 2009/10/13 22:53:30 panetta Exp $ 
+# $Header: /nfs/slac/g/glast/ground/cvs/CHS-scons/mootCore/SConscript,v 1.14 2009/11/06 19:26:47 panetta Exp $ 
 # Authors: Joanne Bogart <jrb@slac.stanford.edu>
 # Version: mootCore-01-24-04
 import os
@@ -32,7 +32,7 @@ progEnvKwArgs = { 'package' : 'mootCore',
 if 'CHS' in progEnv.Dictionary()['CPPDEFINES']:
     swigEnv = baseEnv.Clone()
     swigEnv.Tool("mootCoreLib")
-    lib_py_mootCore = swigEnv.SharedLibrary("lib_py_mootCore", 'src/py_mootCore.i')
+    lib_py_mootCore = swigEnv.SwigLibrary("_py_mootCore", 'src/py_mootCore.i')
     progEnvKwArgs['swigLibraryCxts'] = [[lib_py_mootCore, swigEnv]]
 
 progEnv.Tool('registerTargets', **progEnvKwArgs)
