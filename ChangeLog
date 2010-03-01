@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: panetta  Mon Mar  1 12:25:05 PST 2010
+CHS-scons/mootCore
+
+Modified Files:
+	SConscript 
+Log Message:
+Change swig wrapping parameters to match normal usage
+    *
+------------------------------------------------------------
 User: panetta  Fri Nov  6 11:26:47 PST 2009
 CHS-scons/mootCore
 
