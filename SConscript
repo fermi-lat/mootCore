@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/mootCore/SConscript,v 1.15 2010/03/01 20:25:05 panetta Exp $ 
+# $Header: /nfs/slac/g/glast/ground/cvs/CHS-scons/mootCore/SConscript,v 1.16 2010/03/02 20:54:08 panetta Exp $ 
 # Authors: Joanne Bogart <jrb@slac.stanford.edu>
 # Version: mootCore-01-24-05
 import os
@@ -9,7 +9,7 @@ Import('packages')
 progEnv = baseEnv.Clone()
 libEnv = baseEnv.Clone()
 
-libEnv.Tool('mootCoreLib', depsOnly = 1)
+libEnv.Tool('addLinkDeps', package='mootCore', toBuild='shared')
 mootCore = libEnv.SharedLibrary('mootCore', ['src/MoodConnection.cxx','src/MootSys.cxx','src/DbUtil.cxx', 
 		'src/MootQuery.cxx','src/filterConfig.cxx'])
 
