@@ -1,8 +1,8 @@
 package mootCore
 
-# $Header: /nfs/slac/g/glast/ground/cvs/mootCore/cmt/requirements,v 1.44 2009/09/11 01:21:41 jrb Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/mootCore/cmt/requirements,v 1.45 2010/03/02 20:54:08 panetta Exp $
 
-version v1r24p5
+version v1r24p6
 
 author Joanne Bogart <jrb@slac.stanford.edu>
 
