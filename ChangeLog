@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Tue Jun 15 18:39:24 PDT 2010
+GlastRelease-scons/mootCore
+
+Modified Files:
+	.cvsignore 
+Log Message:
+ignore SCons build products
+    *
+------------------------------------------------------------
 TAG
 Tag name: CHS-10-02-01, operation: add
 Package: mootCore
