@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: panetta  Tue Feb 21 16:47:11 PST 2012
+CHS-scons/mootCore/src/test
+
+Modified Files:
+	test_queries.cxx 
+Log Message:
+Add packageList.txt for new build of CHS-scons
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr23, operation: add
 Package: mootCore
