@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/test/test_queries.cxx,v 1.18 2008/05/23 19:41:21 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CHS-scons/mootCore/src/test/test_queries.cxx,v 1.19 2008/05/28 00:35:32 jrb Exp $
 
 // Exercise query routines
 
@@ -602,7 +602,8 @@ int main(int /* nargs */, char**)    {
   // Cache contents of  filter assoc file
   //  std::string assocFile("/u/ey/jrb/junk/filterAssoc.xml");
   //  q.parseFilterParm(assocFile);
-  unsigned cfgKey=144;
+//  unsigned cfgKey=2595;
+  unsigned cfgKey=2587;
   //  q.cacheFilterConfig(cfgKey);
   conInfo.clear();
   unsigned nFound = q.getActiveFilters(cfgKey, conInfo);
