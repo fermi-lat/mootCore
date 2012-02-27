@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/mootCore/src/MoodConnection.cxx,v 1.5 2007/09/28 22:25:54 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/mootCore/src/MoodConnection.cxx,v 1.6 2008/02/13 01:08:51 panetta Exp $
 
 #include <string>
 #include <cstdio>
@@ -109,7 +109,7 @@ namespace MOOT {
   bool MoodConnection::open(const char* host, int port, 
                             std::string& dbname, bool wrt) {
     using facilities::commonUtilities;
-    static char* acct = "glastreader";
+    static const char* acct = "glastreader";
     // If wrt is true, expect to get user, password from .my.cnf
     // Else use glastreader
 
