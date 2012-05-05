@@ -1,4 +1,4 @@
-//  $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/mootCore/src/MootQuery.cxx,v 1.41 2008/08/05 00:02:34 jrb Exp $
+//  $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/mootCore/src/MootQuery.cxx,v 1.42 2009/09/11 01:10:30 jrb Exp $
 
 #include <string>
 #include <cstdio>
@@ -21,7 +21,7 @@ namespace {
   unsigned getAncsFromP(const std::vector<unsigned>& parms,
                         rdbModel::Rdb* rdb,
                         std::vector<unsigned>& ancs) {
-    unsigned cnt;
+    unsigned cnt = 0;
     for (unsigned parmIx = 0; parmIx < parms.size(); parmIx++) {
       std::string parmKeyStr;
       facilities::Util::utoa(parms[parmIx], parmKeyStr);
