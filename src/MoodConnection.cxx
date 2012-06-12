@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/mootCore/src/MoodConnection.cxx,v 1.6 2008/02/13 01:08:51 panetta Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/mootCore/src/MoodConnection.cxx,v 1.7 2012/02/27 08:17:22 cohen Exp $
 
 #include <string>
 #include <cstdio>
@@ -139,8 +139,8 @@ namespace MOOT {
       return false;
     }
     std::string cnf("$(HOME)/.my.cnf");
-    facilities::Util::expandEnvVar(&cnf);
     if (m_write) {
+      facilities::Util::expandEnvVar(&cnf);
       ok = conn->setOption(rdbModel::DBreadDefaultFile, 
                              cnf.c_str());
       if (ok) ok = conn->setOption(rdbModel::DBreadDefaultGroup, "MOOT_WRITE");
