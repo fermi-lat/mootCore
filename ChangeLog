@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: panetta  Mon Jul  9 14:07:43 PDT 2012
+CHS-scons/mootCore/xml
+
+Added Files:
+	intent_v2r12p0.xsd 
+Log Message:
+JIRA LCT-29: Allow for multiple LPA_Mode blocks in Filter_AssociateXml and Filter_Associate
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-04-00, operation: add
 Package: mootCore
