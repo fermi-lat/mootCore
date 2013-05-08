@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CHS-scons/mootCore/src/test/test_queries.cxx,v 1.19 2008/05/28 00:35:32 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/mootCore/src/test/test_queries.cxx,v 1.20 2012/02/22 00:47:11 panetta Exp $
 
 // Exercise query routines
 
@@ -9,6 +9,7 @@
 #include "mootCore/MoodConnection.h"
 #include "mootCore/MootQuery.h"
 #include "facilities/Timestamp.h"
+#include "facilities/commonUtilities.h"
 
 void writeInfo(MOOT::ConfigInfo* pInfo, std::ostream& out);
 void writeConstituent(const MOOT::ConstitInfo* pInfo, std::ostream& out);
@@ -16,6 +17,8 @@ void writeParmOff(const std::vector<MOOT::ParmOffline>& parm);
 void writeAcqInfo(const MOOT::AcqSummaryInfo* pInfo, std::ostream& out);
 
 int main(int /* nargs */, char**)    {
+
+  facilities::commonUtilities::setupEnvironment();
 
   MOOT::MoodConnection* moodCon = 
     new MOOT::MoodConnection(false);  // read only
