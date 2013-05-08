@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/mootCore/src/test/test_connect.cxx,v 1.1.1.1 2006/11/21 01:18:04 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/mootCore/src/test/test_connect.cxx,v 1.2 2009/09/11 01:10:30 jrb Exp $
 
 // Try out readonly and read/write type of connection.  
 
@@ -7,9 +7,11 @@
 #include <cstdlib>
 #include <vector>
 #include "mootCore/MoodConnection.h"
+#include "facilities/commonUtilities.h"
 
 int main(int, char**)    {
 
+  facilities::commonUtilities::setupEnvironment();
   MOOT::MoodConnection* moodCon = 
     new MOOT::MoodConnection(false);  // read only
 

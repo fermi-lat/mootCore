@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/mootCore/src/test/test_mootSys.cxx,v 1.1.1.1 2006/11/21 01:18:04 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/mootCore/src/test/test_mootSys.cxx,v 1.2 2009/09/11 01:10:30 jrb Exp $
 
 // Try out utilities in MootSys
 // from .my.cnf
@@ -6,6 +6,7 @@
 #include <iostream>
 #include <string>
 #include "mootCore/MootSys.h"
+#include "facilities/commonUtilities.h"
 
 
 int main(int, char**)    {
@@ -14,6 +15,8 @@ int main(int, char**)    {
   std::string out;
   std::string cmd("pwd");
   int status;
+
+  facilities::commonUtilities::setupEnvironment();
 
   // Issue a command that returns a single line
   bool ret = myUtil.sysCmd(cmd, out, status);
